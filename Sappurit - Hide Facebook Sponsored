@@ -17,6 +17,9 @@ facebook.com#?#div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:has-t
 ! Old layout from GitGudMate
 facebook.com##div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(:scope > span:has([data-content="S"]):not(:has([data-content="1"])):not(:has([data-content="2"])):not(:has([data-content="3"])):not(:has([data-content="4"])):not(:has([data-content="5"])):not(:has([data-content="6"])):not(:has([data-content="7"])):not(:has([data-content="8"])):not(:has([data-content="9"])):not(:has([data-content="w"]))))
 
+! Old layout from singron
+facebook.com##div[id^=hyperfeed_story_id_]:has(span:has-text(/S.*p.*o.*n.*s.*o.*r.*e.*d/))
+
 !-------------------------------------------------------
 
 ! New layout from 0ble
