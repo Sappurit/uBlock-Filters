@@ -18,6 +18,10 @@ facebook.com##div[data-pagelet^="FeedUnit"]:has([role^=button]:has(> span:has-te
 ! Filter from Fifth_Illusion
 facebook.com#?#div[data-pagelet^="FeedUnit_"]:has(b:has-text(S):has-text(p):has-text(o):has-text(n):has-text(s):has-text(o):has-text(r):has-text(e):has-text(d))
 
+! Filter from singron
+facebook.com##div[data-pagelet^="FeedUnit_"]:has(span:has-text(/S.*p.*o.*n.*s.*o.*r.*e.*d/))
+
+
 
 !-- https://adblockplus.org/filter-cheatsheet
 !-- https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
