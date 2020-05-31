@@ -15,3 +15,15 @@ facebook.com##div[data-pagelet^="FeedUnit"]:has([role^=button]:has(> span > span
 ! Filter from ansul1001
 facebook.com##div[data-pagelet^="FeedUnit"]:has([role^=button]:has(> span:has-text(S)):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(span:has-text(9)):not(span:has-text(w)))
 
+
+
+!-- https://adblockplus.org/filter-cheatsheet
+!-- https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
+!-- ###advert matches the element with the unique id "advert".
+!-- ##.advert matches elements with the class "advert".
+!-- ##div[title*="adv"] will hide all div elements with title attribute containing the string "adv". 
+!-- ##div[title^="adv"] will hide all div elements with title attribute starting with "adv".
+!-- ##div[title$="ert"] will hide all div elements with title attribute ending with "ert". 
+!-- ##div[width="80%"][bgcolor="white"] multiple conditions.
+!-- > enclosed within elements.
+!-- + immediately preceded by elements.
