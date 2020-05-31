@@ -15,6 +15,8 @@ facebook.com##div[data-pagelet^="FeedUnit"]:has([role^=button]:has(> span > span
 ! Filter from ansul1001
 facebook.com##div[data-pagelet^="FeedUnit"]:has([role^=button]:has(> span:has-text(S)):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(span:has-text(9)):not(span:has-text(w)))
 
+! Filter from Fifth_Illusion
+facebook.com#?#div[data-pagelet^="FeedUnit_"]:has(b:has-text(S):has-text(p):has-text(o):has-text(n):has-text(s):has-text(o):has-text(r):has-text(e):has-text(d))
 
 
 !-- https://adblockplus.org/filter-cheatsheet
