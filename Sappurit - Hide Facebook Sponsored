@@ -9,7 +9,7 @@
 !-------------------------------------------------------
 
 ! Old layout from 0ble
-facebook.com##div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:matches-css(position: relative):has-text(S):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9)):not(:has-text(w))))
+!facebook.com##div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:matches-css(position: relative):has-text(S):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9)):not(:has-text(w))))
 
 ! Old layout from ansul1001
 !facebook.com#?#div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:has-text(S)):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(span:has-text(9)):not(span:has-text(w)))
