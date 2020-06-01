@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Sappurit/Sappurit-uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 3 days
-! Version: 7
+! Version: 8
 ! Last updated: 1 June 2020
 !
 ! I collected all codes from https://www.reddit.com/r/uBlockOrigin/
@@ -26,16 +26,16 @@ facebook.com##div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:matche
 !---New Layout------------------------------------------
 
 ! From 0ble
-facebook.com##div[data-pagelet^="FeedUnit"]:has([role^=button]:has(> span > span:matches-css(position: relative):has-text(S)))
+facebook.com##div[data-pagelet^=FeedUnit_]:has([role^=button]:has(> span > span:matches-css(position: relative):has-text(S)))
 
 ! From ansul1001
-!facebook.com##div[data-pagelet^="FeedUnit"]:has([role^=button]:has(> span:has-text(S)):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(span:has-text(9)):not(span:has-text(w)))
+!facebook.com##div[data-pagelet^=FeedUnit_]:has([role^=button]:has(> span:has-text(S)):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(span:has-text(9)):not(span:has-text(w)))
 
 ! From Fifth_Illusion
-!facebook.com#?#div[data-pagelet^="FeedUnit_"]:has(b:has-text(S):has-text(p):has-text(o):has-text(n):has-text(s):has-text(o):has-text(r):has-text(e):has-text(d))
+!facebook.com#?#div[data-pagelet^=FeedUnit_]:has(b:has-text(S):has-text(p):has-text(o):has-text(n):has-text(s):has-text(o):has-text(r):has-text(e):has-text(d))
 
 ! From singron
-!facebook.com##div[data-pagelet^="FeedUnit_"]:has(span:has-text(/S.*p.*o.*n.*s.*o.*r.*e.*d/))
+!facebook.com##div[data-pagelet^=FeedUnit_]:has(span:has-text(/S.*p.*o.*n.*s.*o.*r.*e.*d/))
 
 !---Annoyances------------------------------------------
 
@@ -47,6 +47,9 @@ facebook.com##div[id^=hyperfeed_story_id_]:has(h6):has(span:has-text(People you 
 
 ! Suggested for You
 facebook.com##div[id^=hyperfeed_story_id_]:has(div[class$=userContentWrapper]):has(div:has-text(Suggested for You))
+
+! Events you may like
+facebook.com##div[id^=hyperfeed_story_id_]:has(div[aria-label="Message from Facebook"]):has(div:has-text(Events you may like))
 
 ! Right Footer (Languages, About)
 facebook.com###pagelet_rhc_footer
