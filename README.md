@@ -3,16 +3,16 @@ I collected all codes from [https://www.reddit.com/r/uBlockOrigin/](https://www.
 Special thanks to everyone who contributed the hard work.  
 I have a little knowledge of CSS. I will try my best to maintain these lists.
 
-To add my filters into uBlock, just click the RAW button and copy those link to your uBlock Dashboard > Filter lists > Import
-[abp:subscribe?location=https://github.com/Sappurit/Sappurit-uBlock-Filters/raw/master/Sappurit%20-%20Hide%20Facebook%20Sponsored](abp:subscribe?location=https://github.com/Sappurit/Sappurit-uBlock-Filters/raw/master/Sappurit%20-%20Hide%20Facebook%20Sponsored)
-[abp:subscribe?location=https://github.com/Sappurit/Sappurit-uBlock-Filters/raw/master/Sappurit%20-%20Annoyances%20in%20Thai%20Webs](abp:subscribe?location=https://github.com/Sappurit/Sappurit-uBlock-Filters/raw/master/Sappurit%20-%20Annoyances%20in%20Thai%20Webs)
+To add my filters into uBlock, just click the RAW button and copy those link to your uBlock Dashboard > Filter lists > Import  
+[https://github.com/Sappurit/Sappurit-uBlock-Filters/raw/master/Sappurit%20-%20Hide%20Facebook%20Sponsored](https://github.com/Sappurit/Sappurit-uBlock-Filters/raw/master/Sappurit%20-%20Hide%20Facebook%20Sponsored)  
+[https://github.com/Sappurit/Sappurit-uBlock-Filters/raw/master/Sappurit%20-%20Annoyances%20in%20Thai%20Webs](https://github.com/Sappurit/Sappurit-uBlock-Filters/raw/master/Sappurit%20-%20Annoyances%20in%20Thai%20Webs)
 
 
 #### Most 3rd party useful lists:
 
 ### EasyList
-EasyList is the primary filter list that removes most adverts from international webpages, including unwanted frames, images and objects. It is the most popular list used by many ad blockers and forms the basis of over a dozen combination and supplementary filter lists.
-[abp:subscribe?location=https://easylist.to/easylist/easylist.txt&title=EasyList](abp:subscribe?location=https://easylist.to/easylist/easylist.txt&title=EasyList)
+EasyList is the primary filter list that removes most adverts from international webpages, including unwanted frames, images and objects. It is the most popular list used by many ad blockers and forms the basis of over a dozen combination and supplementary filter lists.  
+> https://easylist.to/easylist/easylist.txt&title=EasyList
 
 ### EasyList Cookie List
 EasyList Cookie List blocks cookies banners, GDPR overlay windows and other privacy-related notices.
