@@ -1,0 +1,53 @@
+! Title: Sappurit - Annoyances in Thai Webs
+! Homepage: https://github.com/Sappurit/Sappurit-uBlock-Filters
+! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
+! Expires: 3 days
+! Version: 1
+! Last updated: 31 May 2020
+!
+! I collected all codes from https://www.reddit.com/r/uBlockOrigin/
+! Special thanks to everyone who contributed the hard work. 
+! I have a little knowledge of CSS. I will try my best to maintain these lists.
+
+!-------------------------------------------------------
+
+! Suggested overlay at end of the clip.
+youtube.com##.ytp-ce-element
+
+! Thailand News Websites
+mgronline.com###footer
+mgronline.com##.header-content
+mgronline.com##.h-header > div
+mgronline.com##.breaking-news
+mgronline.com##.pdd-t-xs-5.pordee-shops
+nationtv.tv##.cd-overlay.adszone-overlay
+@@||doubleclick.net^$script,domain=thairath.co.th
+
+siambit.me##cloudflare-app:nth-of-type(1)
+
+utaseries.com###header
+utaseries.com###site-footer
+utaseries.com###ads_fox_bottom
+utaseries.com###move-to-top
+
+blacked.com##div[data-test-component="VideoList"]:has(H2:has-text(/Top Videos/))
+blacked.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(/Featured/))
+tushy.com##div[data-test-component="VideoList"]:has(H2:has-text(/Top Videos/))
+tushy.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(/Featured/))
+vixen.com##div[data-test-component="VideoList"]:has(H2:has-text(/Top Videos/))
+vixen.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(/Featured/))
+blackedraw.com##div[data-test-component="VideoList"]:has(H2:has-text(/Top Videos/))
+blackedraw.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(/Featured/))
+tushyraw.com##div[data-test-component="VideoList"]:has(H2:has-text(/Top Videos/))
+tushyraw.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(/Featured/))
+deeper.com##div[data-test-component="VideoList"]:has(H2:has-text(/Top Videos/))
+deeper.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(/Featured/))
+
+thiendia.com##.samThreadPostContainerAfter.samAlignCenterAuto.samBannerUnit
+thiendia.com###content > .pageWidth > .pageContent > .my_responsive_ads
+thiendia.com###logoBlock
+thiendia.com##.samThreadPostMessageInside.samTextUnit
+thiendia.com##footer > .my_responsive_ads
+thiendia.com##.threadViewBelowMessages.samAlignCenterAuto.samBannerUnit
+
+!-------------------------------------------------------
