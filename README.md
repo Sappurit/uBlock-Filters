@@ -21,3 +21,7 @@ EasyList Cookie List blocks cookies banners, GDPR overlay windows and other priv
 The Adblock Warning Removal List specifically removes obtrusive messages and warnings targeted to users who use an adblocker.
 > https://easylist-downloads.adblockplus.org/antiadblockfilters.txt&title=Adblock%20Warning%20Removal%20List
 
+## **Don't forget to select Cosmetic filters in uBlock Origin**
+
+![](https://i.imgur.com/HLzg7O5.png)
+
