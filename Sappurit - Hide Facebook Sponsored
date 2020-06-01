@@ -2,8 +2,8 @@
 ! Homepage: https://github.com/Sappurit/Sappurit-uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 3 days
-! Version: 3
-! Last updated: 31 May 2020
+! Version: 4
+! Last updated: 1 June 2020
 !
 ! I collected all codes from https://www.reddit.com/r/uBlockOrigin/
 ! Special thanks to everyone who contributed the hard work. 
@@ -43,13 +43,13 @@ facebook.com##div[data-pagelet^="FeedUnit"]:has([role^=button]:has(> span > span
 facebook.com###stories_pagelet_below_composer
 
 ! People you may know
-facebook.com##div[id^=hyperfeed_story_id_]:has(h6):has(span:has-text(People you may know))
+facebook.com##div[id^=hyperfeed_story_id_]:has(h6 > span:has-text(People you may know))
 
 ! Suggested for You
-facebook.com##div[id^=hyperfeed_story_id_]:has(div[class$=userContentWrapper]):has(div:has-text(Suggested for You))
+facebook.com##div[id^=hyperfeed_story_id_]:has(div[class$=userContentWrapper] > div:has-text(Suggested for You))
 
 ! Right Footer (Languages, About)
-web.facebook.com###pagelet_rhc_footer
+facebook.com###pagelet_rhc_footer
 
 !-------------------------------------------------------
 
