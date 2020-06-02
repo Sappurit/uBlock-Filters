@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Sappurit/Sappurit-uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 3 days
-! Version: 11
+! Version: 12
 ! Last updated: 2 June 2020
 !
 ! I collected all codes from https://www.reddit.com/r/uBlockOrigin/
@@ -49,13 +49,19 @@ facebook.com##div[data-pagelet^=FeedUnit_]:has([role^=button]:has(> span > span:
 facebook.com###stories_pagelet_below_composer
 
 ! People you may know
-facebook.com##div[id^=hyperfeed_story_id_]:has(span:has-text(/^People you may know$/i))
+facebook.com##div[id^=hyperfeed_story_id_]:has(div:has-text(/^People you may know$/i))
 
 ! Suggested for You
 facebook.com##div[id^=hyperfeed_story_id_]:has(div:has-text(/^Suggested for You$/i))
 
 ! Events you may like
-facebook.com##div[id^=hyperfeed_story_id_]:has(div[aria-label="Message from Facebook"] div:has-text(/^Events you may like$/i))
+facebook.com##div[id^=hyperfeed_story_id_]:has(div:has-text(/^Events you may like$/i))
+
+! XXX people want to join this group
+facebook.com###pagelet_consolidate_posts
+
+! Suggested units
+facebook.com##div[id^=mall_post_]:has(div:has-text(/^Suggested units$/i))
 
 !-------------------------------------------------------
 !--- Right Column Annoyances by Sappurit ---------------
