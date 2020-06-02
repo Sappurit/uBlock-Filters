@@ -51,8 +51,11 @@ facebook.com##div[id^=hyperfeed_story_id_]:has(div:has-text(/^Suggested for You$
 ! Events you may like
 facebook.com##div[id^=hyperfeed_story_id_]:has(div[aria-label="Message from Facebook"] div:has-text(/^Events you may like$/i))
 
-! Right Footer (Languages, About)
+! Right - Footer (Languages, About)
 facebook.com###pagelet_rhc_footer
+
+! Right - Suggested Groups
+facebook.com###pagelet_ego_contextual_group
 
 ! Top Stories in Your Groups
 ! Featured For You
