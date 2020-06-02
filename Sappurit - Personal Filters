@@ -2,17 +2,36 @@
 ! Homepage: https://github.com/Sappurit/Sappurit-uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 3 days
-! Version: 2
+! Version: 3
 ! Last updated: 31 May 2020
 
+!-------------------------------------------------------
+!--- Facebook ------------------------------------------
+!-------------------------------------------------------
+
+facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"] > div[class^="text_exposed_root"]:has-text(/(inthanin|อินทนิล|เลือกตั้ง|หาเสียง|พรรค)/i))
+facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"] > div[class^="text_exposed_root"]:has-text(/(สุเทพ|ธนาธร|ปิยบุตร|จ่านิว|จตุพร|ณัฐวุฒิ|ยิ่งลักษณ์)/i))
+facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"] > div[class^="text_exposed_root"]:has-text(/(ประยุทธ์|ประวิตร|บิ๊กตู่|บิ๊กป้อม|ลุงตู่|ลุงป้อม)/i))
+facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"] > div[class^="text_exposed_root"]:has-text(/(เสี่ยโป้|เสก โลโซ|กานต์|BNK48|ลุงตู่|ลุงป้อม)/i))
+
+!-------------------------------------------------------
+!--- Youtube -------------------------------------------
 !-------------------------------------------------------
 
 ! Suggested overlay at end of the clip.
 youtube.com##.ytp-ce-element
 
 !-------------------------------------------------------
+!--- Reddit --------------------------------------------
+!-------------------------------------------------------
 
-! Thailand News Websites
+reddit.com##div[id="siteTable"] > div[data-subreddit="FUTMobile"]:has(a[class*="title"]:has-text(/Squad Building/i))
+reddit.com##div > div > div[class*="scrollerItem"]:has(a[data-click-id="body"]:has-text(/Squad Building/i))
+
+!-------------------------------------------------------
+!--- Thailand News Websites ----------------------------
+!-------------------------------------------------------
+
 mgronline.com###footer
 mgronline.com##.header-content
 mgronline.com##.h-header > div
@@ -21,6 +40,8 @@ mgronline.com##.pdd-t-xs-5.pordee-shops
 nationtv.tv##.cd-overlay.adszone-overlay
 @@||doubleclick.net^$script,domain=thairath.co.th
 
+!-------------------------------------------------------
+!--- SiamBit -------------------------------------------
 !-------------------------------------------------------
 
 siambit.me##cloudflare-app:nth-of-type(1)
@@ -55,6 +76,25 @@ thiendia.com###logoBlock
 thiendia.com##.samThreadPostMessageInside.samTextUnit
 thiendia.com##footer > .my_responsive_ads
 thiendia.com##.threadViewBelowMessages.samAlignCenterAuto.samBannerUnit
+
+!-------------------------------------------------------
+!--- Block Domains -------------------------------------
+!-------------------------------------------------------
+
+||google-analytics.com
+||googlesyndication.com
+||doubleclick.net
+||truehits.in.th
+||truehits.net
+||serving-sys.com
+||effectivemeasure.net
+||tripadvisor.com
+||taboola.com
+||imprezzer.com
+||izooto.com
+||dyncdn.me/static/20/js/expla*.js$script,domain=rarbgenter.org
+||dyncdn.me/static/20/js/showads.js$script,domain=rarbgenter.org
+||ufabet678.com
 
 !-------------------------------------------------------
 !--- Useful Info ---------------------------------------
