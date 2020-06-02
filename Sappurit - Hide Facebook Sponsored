@@ -64,7 +64,5 @@ facebook.com###pagelet_rhc_footer
 !-- ##div[title^="adv"] will hide all div elements with title attribute starting with "adv".
 !-- ##div[title$="ert"] will hide all div elements with title attribute ending with "ert". 
 !-- ##div[width="80%"][bgcolor="white"] multiple conditions.
-!-- > enclosed within elements.
-!-- + immediately preceded by elements.
 
 !-------------------------------------------------------
