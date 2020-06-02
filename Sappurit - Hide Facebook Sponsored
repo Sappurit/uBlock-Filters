@@ -54,6 +54,21 @@ facebook.com##div[id^=hyperfeed_story_id_]:has(div[aria-label="Message from Face
 ! Right Footer (Languages, About)
 facebook.com###pagelet_rhc_footer
 
+! Top Stories in Your Groups
+! Featured For You
+! Suggested Post
+! Share Videos from Related Pages
+! Buy and Sell Groups Near You
+! Only you can see this preview until you run this ad
+! Top Posts in Your Groups
+! Active This Week
+! Your Memories on Facebook
+! Friend Requests
+! Shared Memories
+! Similar to Posts You've Interacted With
+! Suggested Live Gaming Videos
+! Suggested Units
+
 !-------------------------------------------------------
 
 !-- https://adblockplus.org/filter-cheatsheet
