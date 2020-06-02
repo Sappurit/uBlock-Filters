@@ -63,6 +63,7 @@ facebook.com##div[id^=hyperfeed_story_id_]:has(div[aria-label="Message from Face
 
 ! Invite Members
 facebook.com##div:has(> div > span[role="heading"] > span:has-text(/^Invite Members$/i))
+!facebook.com##div[class="_4-u2 _3-96 _4-u8"]:has(span:has-text(/^Invite Members$/i))
 
 ! Suggested Groups
 facebook.com###pagelet_ego_contextual_group
@@ -88,6 +89,14 @@ facebook.com###pagelet_rhc_footer
 ! Similar to Posts You've Interacted With
 ! Suggested Live Gaming Videos
 ! Suggested Units
+! facebook.com##div[class="pagelet-group pagelet"][id="stories_pagelet_rhc"]
+! facebook.com##div[class="pagelet-group pagelet"][id="pagelet_reminders"]
+! facebook.com##div[class="pagelet-group pagelet"][id="pagelet_marketplace_new_user_top_picks_rhc"]
+! facebook.com##div[class="pagelet-group pagelet"][id="pagelet_ego_pane"]
+! facebook.com##div[class="pagelet"][id="pagelet_ego_contextual_group"]
+! facebook.com##div[class="_4-u2 _3-96 _4-u8"]:has(span:has-text(/Create New Groups/))
+! facebook.com##div[id*="SUGGESTED_IN_MALL"]
+
 
 !-------------------------------------------------------
 !--- Useful Info ---------------------------------------
