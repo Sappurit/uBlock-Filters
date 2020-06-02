@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Sappurit/Sappurit-uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 3 days
-! Version: 13
+! Version: 14
 ! Last updated: 2 June 2020
 !
 ! I collected all codes from https://www.reddit.com/r/uBlockOrigin/
@@ -67,12 +67,15 @@ facebook.com##div[id^=mall_post_]:has(div:has-text(/^Suggested units$/i))
 !--- Right Column Annoyances by Sappurit ---------------
 !-------------------------------------------------------
 
-! Invite Members
-! facebook.com##div:has(> div > span[role="heading"] > span:has-text(/^Invite Members$/i))
-facebook.com##div[class="_4-u2 _3-96 _4-u8"]:has(span:has-text(/^Invite Members$/i))
+! Invite members
+! facebook.com##div:has(> div > span[role="heading"] > span:has-text(/^Invite members$/i))
+facebook.com##div[class="_4-u2 _3-96 _4-u8"]:has(span:has-text(/^Invite members$/i))
 
 ! Suggested Groups
 facebook.com###pagelet_ego_contextual_group
+
+! Popular Topics in Posts
+facebook.com###group_rhc_post_tags_list
 
 ! Footer (Languages, About)
 facebook.com###pagelet_rhc_footer
@@ -94,7 +97,6 @@ facebook.com###pagelet_rhc_footer
 ! Shared Memories
 ! Similar to Posts You've Interacted With
 ! Suggested Live Gaming Videos
-! Suggested Units
 ! facebook.com##div[class="pagelet-group pagelet"][id="stories_pagelet_rhc"]
 ! facebook.com##div[class="pagelet-group pagelet"][id="pagelet_reminders"]
 ! facebook.com##div[class="pagelet-group pagelet"][id="pagelet_marketplace_new_user_top_picks_rhc"]
