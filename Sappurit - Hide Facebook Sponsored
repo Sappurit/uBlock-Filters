@@ -2,14 +2,16 @@
 ! Homepage: https://github.com/Sappurit/Sappurit-uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 3 days
-! Version: 10
+! Version: 11
 ! Last updated: 2 June 2020
 !
 ! I collected all codes from https://www.reddit.com/r/uBlockOrigin/
 ! Special thanks to everyone who contributed the hard work. 
 ! I have a little knowledge of CSS. I will try my best to maintain these lists.
 
-!---Old Layout-----------------------------------------
+!-------------------------------------------------------
+!--- Old Layout ----------------------------------------
+!-------------------------------------------------------
 
 ! From 0ble
 facebook.com##div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:matches-css(position: relative):has-text(S):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9)):not(:has-text(w))))
@@ -23,7 +25,9 @@ facebook.com##div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:matche
 ! From singron
 !facebook.com##div[id^=hyperfeed_story_id_]:has(span:has-text(/S.*p.*o.*n.*s.*o.*r.*e.*d/))
 
-!---New Layout------------------------------------------
+!-------------------------------------------------------
+!--- New Layout ----------------------------------------
+!-------------------------------------------------------
 
 ! From 0ble
 facebook.com##div[data-pagelet^=FeedUnit_]:has([role^=button]:has(> span > span:matches-css(position: relative):has-text(S)))
@@ -37,7 +41,9 @@ facebook.com##div[data-pagelet^=FeedUnit_]:has([role^=button]:has(> span > span:
 ! From singron
 !facebook.com##div[data-pagelet^=FeedUnit_]:has(span:has-text(/S.*p.*o.*n.*s.*o.*r.*e.*d/))
 
-!---Center Annoyances by Sappurit-----------------------
+!-------------------------------------------------------
+!--- Center Annoyances by Sappurit ---------------------
+!-------------------------------------------------------
 
 ! Stories
 facebook.com###stories_pagelet_below_composer
@@ -51,7 +57,9 @@ facebook.com##div[id^=hyperfeed_story_id_]:has(div:has-text(/^Suggested for You$
 ! Events you may like
 facebook.com##div[id^=hyperfeed_story_id_]:has(div[aria-label="Message from Facebook"] div:has-text(/^Events you may like$/i))
 
-!---Right Column Annoyances by Sappurit-----------------------
+!-------------------------------------------------------
+!--- Right Column Annoyances by Sappurit ---------------
+!-------------------------------------------------------
 
 ! Invite Members
 facebook.com##div:has(> div > span[role="heading"] > span:has-text(/^Invite Members$/i))
@@ -62,6 +70,8 @@ facebook.com###pagelet_ego_contextual_group
 ! Footer (Languages, About)
 facebook.com###pagelet_rhc_footer
 
+!-------------------------------------------------------
+!--- Notes ---------------------------------------------
 !-------------------------------------------------------
 
 ! Top Stories in Your Groups
@@ -80,6 +90,8 @@ facebook.com###pagelet_rhc_footer
 ! Suggested Units
 
 !-------------------------------------------------------
+!--- Useful Info ---------------------------------------
+!-------------------------------------------------------
 
 !-- https://adblockplus.org/filter-cheatsheet
 !-- https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
@@ -90,4 +102,6 @@ facebook.com###pagelet_rhc_footer
 !-- ##div[title$="ert"] will hide all div elements with title attribute ending with "ert". 
 !-- ##div[width="80%"][bgcolor="white"] multiple conditions.
 
+!-------------------------------------------------------
+!--- End -----------------------------------------------
 !-------------------------------------------------------
