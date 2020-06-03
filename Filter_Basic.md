@@ -29,6 +29,7 @@ Specific -> Good      example.com##body > div:has-text(Sponsored)
 ## Extended CSS selectors (uBlock Origin Specific)
 
 [https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters](https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters)
+
 - subject:not()
 - subject:has()
 - subject:has-text()
