@@ -33,7 +33,7 @@ Specific -> Good      example.com##body > div:has-text(Sponsored)
 - Following Sibling Combinator (~) = Any younger slibling, same level,  same parent
 
 
-## Element Get Selected
+## How Element will be Selected
 
 - `example.com##table > tr > td:has-text(Sponsored)` Only \<td\> will be selected
 - `example.com##table:has(> tr > td:has-text(Sponsored))` Full \<table\> will be selected
