@@ -9,8 +9,6 @@
 !--- SiamBit -------------------------------------------
 !-------------------------------------------------------
 
-siambit.me##cloudflare-app:nth-of-type(1)
-
 ! Header
 siambit.me##body > table:nth-of-type(1) > tbody > tr > .bottom
 
