@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Sappurit/Sappurit-uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 3 days
-! Version: 4
+! Version: 7
 ! Last updated: 31 May 2020
 
 !-------------------------------------------------------
@@ -92,19 +92,6 @@ thiendia.com##.threadViewBelowMessages.samAlignCenterAuto.samBannerUnit
 ||dyncdn.me/static/20/js/expla*.js$script,domain=rarbgenter.org
 ||dyncdn.me/static/20/js/showads.js$script,domain=rarbgenter.org
 ||ufabet678.com
-
-!-------------------------------------------------------
-!--- Useful Info ---------------------------------------
-!-------------------------------------------------------
-
-!-- https://adblockplus.org/filter-cheatsheet
-!-- https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
-!-- ###advert matches the element with the unique id "advert".
-!-- ##.advert matches elements with the class "advert".
-!-- ##div[title*="adv"] will hide all div elements with title attribute containing the string "adv". 
-!-- ##div[title^="adv"] will hide all div elements with title attribute starting with "adv".
-!-- ##div[title$="ert"] will hide all div elements with title attribute ending with "ert". 
-!-- ##div[width="80%"][bgcolor="white"] multiple conditions.
 
 !-------------------------------------------------------
 !--- End -----------------------------------------------
