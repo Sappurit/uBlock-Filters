@@ -1,7 +1,7 @@
 ## Filters
 
-- Network Filters
-- Cosmetic Filters
+- Network Filters (Simple blocking rules)
+- Cosmetic Filters (Hiding elements)
   - Standard Cosmetic Filters = CSS Selector
   - Procedural Cosmetic Filters = Javascript code is used to find DOM elements
     - Generic = Apply to all domains
@@ -11,7 +11,20 @@ Generic  -> Bad       ##body > div:has-text(Sponsored)
 Specific -> Good      example.com##body > div:has-text(Sponsored)
 ```
 
-## Cosmetic Filter Operators
+
+## CSS Selectors
+
+[https://adblockplus.org/filter-cheatsheet](https://adblockplus.org/filter-cheatsheet)
+
+`example.com###advert` matches the element with the unique id "advert"
+`example.com##.advert` matches elements with the class "advert"
+`example.com##div[title*="adv"]` matches all \<div\> elements with title attribute containing the string "adv"
+`example.com##div[title^="adv"]` matches all <div\> elements with title attribute starting with "adv"
+`example.com##div[title$="ert"]` matches all <div\> elements with title attribute ending with "ert"
+`example.com##div[width="80%"][bgcolor="white"]` matches multiple conditions
+
+
+## Extended CSS selectors (uBlock Origin Specific)
 
 [https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters](https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters)
 - subject:not()
@@ -26,7 +39,7 @@ Specific -> Good      example.com##body > div:has-text(Sponsored)
 - subject:xpath()
 
 
-## CSS Selector
+## CSS Combinators
 
 - Decendant Selector (whitespace) = Any child, any level
 - Child Combinator (>) = Direct child, first level only
