@@ -4,11 +4,11 @@
 - Cosmetic Filters
   - Standard Cosmetic Filters = CSS Selector
   - Procedural Cosmetic Filters = Javascript code is used to find DOM elements
-    - Generic = Apply to all domains.
-    - Specific = Prefixed with the domain on which they are meant to apply.
+    - Generic = Apply to all domains
+    - Specific = Prefixed with the domain on which they are meant to apply
 ```
-Specific -> valid    example.com##body > div:has-text(Sponsored)
-Generic  -> ignore   ##body > div:has-text(Sponsored)
+Generic  -> Bad       ##body > div:has-text(Sponsored)
+Specific -> Good      example.com##body > div:has-text(Sponsored)
 ```
 
 ## Cosmetic Filter Operators
@@ -35,5 +35,5 @@ Generic  -> ignore   ##body > div:has-text(Sponsored)
 
 ## Element Get Selected
 
-- `example.com##table > tr:has-text(Sponsored)` Only <tr> will be selected. 
-- `example.com##table:has(> tr:has-text(Sponsored))` Full <table> will be selected. 
+- `example.com##table > tr:has-text(Sponsored)` Only \<tr\> will be selected
+- `example.com##table:has(> tr:has-text(Sponsored))` Full \<table\> will be selected
