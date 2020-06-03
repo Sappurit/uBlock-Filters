@@ -9,9 +9,9 @@
 !--- Facebook ------------------------------------------
 !-------------------------------------------------------
 
-facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"]:has-text(/(พรรคเพื่อไทย|พปชร)/i))
-facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"]:has-text(/(สุเทพ|ธนาธร|ปิยบุตร|จ่านิว|จตุพร|ณัฐวุฒิ|ยิ่งลักษณ์)/i))
-facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"]:has-text(/(ประยุทธ์|ประวิตร|บิ๊กตู่|บิ๊กป้อม|ลุงตู่|ลุงป้อม)/i))
+facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"]:has-text(/(พรรคเพื่อไทย|พปชร)/))
+facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"]:has-text(/(สุเทพ|ธนาธร|ปิยบุตร|จ่านิว|จตุพร|ณัฐวุฒิ|ยิ่งลักษณ์)/))
+facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"]:has-text(/(ประยุทธ์|ประวิตร|บิ๊กตู่|บิ๊กป้อม|ลุงตู่|ลุงป้อม)/))
 facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"]:has-text(/(เสี่ยโป้|เสกโลโซ|เสก โลโซ|กานต์|BNK48)/i))
 
 !-------------------------------------------------------
@@ -26,7 +26,7 @@ youtube.com##.ytp-ce-element
 !-------------------------------------------------------
 
 !reddit.com##div[id="siteTable"] > div[data-subreddit="FUTMobile"]:has(a[class*="title"]:has-text(/Squad Building/i))
-reddit.com##div:has(> div > div[class~="scrollerItem"]:has(span:has-text(Squad Building)))
+reddit.com##div:has(> div > div[class~="scrollerItem"] span:has-text(Squad Building))
 
 !-------------------------------------------------------
 !--- Thailand News Websites ----------------------------
