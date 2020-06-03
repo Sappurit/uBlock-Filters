@@ -28,5 +28,5 @@ The Adblock Warning Removal List specifically removes obtrusive messages and war
 
 # **Don't forget to select "Parse and enforce cosmetic filters" in uBlock Origin**
 
-![](https://i.imgur.com/HLzg7O5.png)
+![](https://i.imgur.com/KTU2d0p.png)
 
