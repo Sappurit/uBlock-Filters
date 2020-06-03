@@ -35,5 +35,5 @@ Specific -> Good      example.com##body > div:has-text(Sponsored)
 
 ## Element Get Selected
 
-- `example.com##table > tr:has-text(Sponsored)` Only \<tr\> will be selected
-- `example.com##table:has(> tr:has-text(Sponsored))` Full \<table\> will be selected
+- `example.com##table > tr > td:has-text(Sponsored)` Only \<td\> will be selected
+- `example.com##table:has(> tr > td:has-text(Sponsored))` Full \<table\> will be selected
