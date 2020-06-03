@@ -1,4 +1,5 @@
 ### Filters
+
 - Network Filters
 - Cosmetic Filters
   - Standard Cosmetic Filters = CSS Selector
@@ -11,6 +12,7 @@ Generic  -> ignore   ##body > div:has-text(Sponsored)
 ```
 
 ### Cosmetic Filter Operators
+
 - subject:not()
 - subject:has()
 - subject:has-text()
