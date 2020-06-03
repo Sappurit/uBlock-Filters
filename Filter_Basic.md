@@ -23,3 +23,11 @@ Generic  -> ignore   ##body > div:has-text(Sponsored)
 - subject:upward()
 - subject:watch-attr()
 - subject:xpath()
+
+
+## CSS Selector
+
+- Decendant Selector (whitespace) = Any child, any level
+- Child Combinator (>) = Direct child, first level only
+- Adjacent Sibling Combinator (+) = Next younger sibling only, same level, same parent
+- Following Sibling Combinator (~) = Any younger slibling, same level,  same parent
