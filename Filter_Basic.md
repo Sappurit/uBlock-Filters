@@ -27,8 +27,6 @@ Specific -> Good      example.com##body > div:has-text(Sponsored)
 - `example.com##div[title~="advert"]` matches all \<div\> elements with title attribute "advert" in a list of whitespace-separated values
 - `example.com##div[width="80%"][size="7"]` matches multiple conditions
 
-## CSS Attribute Selectors
-
 
 ## Extended CSS selectors (uBlock Origin Specific)
 
