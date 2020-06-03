@@ -1,4 +1,4 @@
-### Filters
+### **Filters**
 - Network Filters
 - Cosmetic Filters
   - Standard Cosmetic Filters = CSS Selector
