@@ -21,6 +21,9 @@ facebook.com##div[id^=hyperfeed_story_id_]:has(div:has-text(/^Suggested for You$
 ! Events you may like
 facebook.com##div[id^=hyperfeed_story_id_]:has(div:has-text(/^Events you may like$/i))
 
+! Friend Requests
+facebook.com##div[id^=hyperfeed_story_id_]:has(div:has-text(/^Friend Requests$/i))
+
 ! XXX people want to join this group
 facebook.com###pagelet_consolidate_posts
 
