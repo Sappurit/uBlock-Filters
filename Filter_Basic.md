@@ -31,3 +31,9 @@ Generic  -> ignore   ##body > div:has-text(Sponsored)
 - Child Combinator (>) = Direct child, first level only
 - Adjacent Sibling Combinator (+) = Next younger sibling only, same level, same parent
 - Following Sibling Combinator (~) = Any younger slibling, same level,  same parent
+
+
+## Element Get Selected
+
+- `example.com##table > tr:has-text(Sponsored)` Only <tr> will be selected. 
+- `example.com##table:has(> tr:has-text(Sponsored))` Full <table> will be selected. 
