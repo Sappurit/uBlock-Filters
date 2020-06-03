@@ -10,7 +10,6 @@ To add my filters into uBlock, just click the RAW button and copy those link to 
 > https://github.com/Sappurit/Sappurit-uBlock-Filters/raw/master/Sappurit%20-%20Personal%20Filters
 
 
-
 # Most 3rd party useful lists
 
 ### **EasyList**
@@ -26,7 +25,7 @@ The Adblock Warning Removal List specifically removes obtrusive messages and war
 > https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
 
 
-# **Don't forget to select "Parse and enforce cosmetic filters" in uBlock Origin**
+# Don't forget to select "Parse and enforce cosmetic filters" in uBlock Origin
 
 ![](https://i.imgur.com/KTU2d0p.png)
 
