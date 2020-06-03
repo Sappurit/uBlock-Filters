@@ -9,10 +9,10 @@
 !--- Facebook ------------------------------------------
 !-------------------------------------------------------
 
-facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"] > div[class~="text_exposed_root"]:has-text(/(inthanin|อินทนิล|เลือกตั้ง|หาเสียง|พรรค)/i))
-facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"] > div[class~="text_exposed_root"]:has-text(/(สุเทพ|ธนาธร|ปิยบุตร|จ่านิว|จตุพร|ณัฐวุฒิ|ยิ่งลักษณ์)/i))
-facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"] > div[class~="text_exposed_root"]:has-text(/(ประยุทธ์|ประวิตร|บิ๊กตู่|บิ๊กป้อม|ลุงตู่|ลุงป้อม|พปชร)/i))
-facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"] > div[class~="text_exposed_root"]:has-text(/(เสี่ยโป้|เสก โลโซ|กานต์|BNK48)/i))
+facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"]:has-text(/(inthanin|อินทนิล|เลือกตั้ง|หาเสียง|พรรค)/i))
+facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"]:has-text(/(สุเทพ|ธนาธร|ปิยบุตร|จ่านิว|จตุพร|ณัฐวุฒิ|ยิ่งลักษณ์)/i))
+facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"]:has-text(/(ประยุทธ์|ประวิตร|บิ๊กตู่|บิ๊กป้อม|ลุงตู่|ลุงป้อม|พปชร)/i))
+facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"]:has-text(/(เสี่ยโป้|เสก โลโซ|กานต์|BNK48)/i))
 
 !-------------------------------------------------------
 !--- Youtube -------------------------------------------
