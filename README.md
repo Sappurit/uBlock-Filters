@@ -1,4 +1,4 @@
-# Sappurit-uBlock-Filters
+## Sappurit-uBlock-Filters
 I collected all codes from [https://www.reddit.com/r/uBlockOrigin/](https://www.reddit.com/r/uBlockOrigin/)                
 Special thanks to everyone who contributed the hard work.  
 I have a little knowledge of CSS. I will try my best to maintain these lists.
@@ -10,7 +10,7 @@ To add my filters into uBlock, just click the RAW button and copy those link to 
 > https://github.com/Sappurit/Sappurit-uBlock-Filters/raw/master/Sappurit%20-%20Personal%20Filters
 
 
-# Most 3rd party useful lists
+## Most 3rd party useful lists
 
 ### **EasyList**
 EasyList is the primary filter list that removes most adverts from international webpages, including unwanted frames, images and objects. It is the most popular list used by many ad blockers and forms the basis of over a dozen combination and supplementary filter lists.  
@@ -25,7 +25,7 @@ The Adblock Warning Removal List specifically removes obtrusive messages and war
 > https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
 
 
-# Don't forget to select "Parse and enforce cosmetic filters" in uBlock Origin
+## Don't forget to select "Parse and enforce cosmetic filters" in uBlock Origin
 
 ![](https://i.imgur.com/KTU2d0p.png)
 
