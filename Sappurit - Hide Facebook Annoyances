@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Sappurit/Sappurit-uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 3 days
-! Version: 16
+! Version: 17
 ! Last updated: 3 June 2020
 
 !-------------------------------------------------------
@@ -68,20 +68,6 @@ facebook.com###pagelet_rhc_footer
 ! facebook.com##div[class="pagelet"][id="pagelet_ego_contextual_group"]
 ! facebook.com##div[class="_4-u2 _3-96 _4-u8"]:has(span:has-text(/Create New Groups/))
 ! facebook.com##div[id*="SUGGESTED_IN_MALL"]
-
-
-!-------------------------------------------------------
-!--- Useful Info ---------------------------------------
-!-------------------------------------------------------
-
-!-- https://adblockplus.org/filter-cheatsheet
-!-- https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
-!-- ###advert matches the element with the unique id "advert".
-!-- ##.advert matches elements with the class "advert".
-!-- ##div[title*="adv"] will hide all div elements with title attribute containing the string "adv". 
-!-- ##div[title^="adv"] will hide all div elements with title attribute starting with "adv".
-!-- ##div[title$="ert"] will hide all div elements with title attribute ending with "ert". 
-!-- ##div[width="80%"][bgcolor="white"] multiple conditions.
 
 !-------------------------------------------------------
 !--- End -----------------------------------------------
