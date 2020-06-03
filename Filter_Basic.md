@@ -18,12 +18,12 @@ Specific -> Good      example.com##body > div:has-text(Sponsored)
 
 [https://adblockplus.org/filter-cheatsheet](https://adblockplus.org/filter-cheatsheet)
 
-`example.com###advert` matches the element with the unique id "advert"
-`example.com##.advert` matches elements with the class "advert"
-`example.com##div[title^="adv"]` matches all \<div\> elements with title attribute starting with "adv"
-`example.com##div[title*="ver"]` matches all \<div\> elements with title attribute containing the string "ver"
-`example.com##div[title$="ert"]` matches all \<div\> elements with title attribute ending with "ert"
-`example.com##div[width="80%"][size="7"]` matches multiple conditions
+- `example.com###advert` matches the element with the unique id "advert"
+- `example.com##.advert` matches elements with the class "advert"
+- `example.com##div[title^="adv"]` matches all \<div\> elements with title attribute starting with "adv"
+- `example.com##div[title*="ver"]` matches all \<div\> elements with title attribute containing the string "ver"
+- `example.com##div[title$="ert"]` matches all \<div\> elements with title attribute ending with "ert"
+- `example.com##div[width="80%"][size="7"]` matches multiple conditions
 
 
 ## Extended CSS selectors (uBlock Origin Specific)
