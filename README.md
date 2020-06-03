@@ -11,7 +11,7 @@ To add my filters into uBlock, just click the RAW button and copy those link to 
 
 
 
-# **Most 3rd party useful lists**
+# Most 3rd party useful lists
 
 ### **EasyList**
 EasyList is the primary filter list that removes most adverts from international webpages, including unwanted frames, images and objects. It is the most popular list used by many ad blockers and forms the basis of over a dozen combination and supplementary filter lists.  
