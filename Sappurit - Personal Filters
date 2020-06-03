@@ -9,10 +9,10 @@
 !--- Facebook ------------------------------------------
 !-------------------------------------------------------
 
-facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"] > div[class^="text_exposed_root"]:has-text(/(inthanin|อินทนิล|เลือกตั้ง|หาเสียง|พรรค)/i))
-facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"] > div[class^="text_exposed_root"]:has-text(/(สุเทพ|ธนาธร|ปิยบุตร|จ่านิว|จตุพร|ณัฐวุฒิ|ยิ่งลักษณ์)/i))
-facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"] > div[class^="text_exposed_root"]:has-text(/(ประยุทธ์|ประวิตร|บิ๊กตู่|บิ๊กป้อม|ลุงตู่|ลุงป้อม|พปชร)/i))
-facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"] > div[class^="text_exposed_root"]:has-text(/(เสี่ยโป้|เสก โลโซ|กานต์|BNK48)/i))
+facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"] > div[class~="text_exposed_root"]:has-text(/(inthanin|อินทนิล|เลือกตั้ง|หาเสียง|พรรค)/i))
+facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"] > div[class~="text_exposed_root"]:has-text(/(สุเทพ|ธนาธร|ปิยบุตร|จ่านิว|จตุพร|ณัฐวุฒิ|ยิ่งลักษณ์)/i))
+facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"] > div[class~="text_exposed_root"]:has-text(/(ประยุทธ์|ประวิตร|บิ๊กตู่|บิ๊กป้อม|ลุงตู่|ลุงป้อม|พปชร)/i))
+facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"] > div[class~="text_exposed_root"]:has-text(/(เสี่ยโป้|เสก โลโซ|กานต์|BNK48)/i))
 
 !-------------------------------------------------------
 !--- Youtube -------------------------------------------
@@ -52,18 +52,12 @@ utaseries.com###move-to-top
 
 !-------------------------------------------------------
 
-blacked.com##div[data-test-component="VideoList"]:has(H2:has-text(/Top Videos/))
-blacked.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(/Featured/))
-tushy.com##div[data-test-component="VideoList"]:has(H2:has-text(/Top Videos/))
-tushy.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(/Featured/))
-vixen.com##div[data-test-component="VideoList"]:has(H2:has-text(/Top Videos/))
-vixen.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(/Featured/))
-blackedraw.com##div[data-test-component="VideoList"]:has(H2:has-text(/Top Videos/))
-blackedraw.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(/Featured/))
-tushyraw.com##div[data-test-component="VideoList"]:has(H2:has-text(/Top Videos/))
-tushyraw.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(/Featured/))
-deeper.com##div[data-test-component="VideoList"]:has(H2:has-text(/Top Videos/))
-deeper.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(/Featured/))
+blacked.com,blackedraw.com##div[data-test-component="VideoList"]:has(H2:has-text(Top Videos))
+blacked.com,blackedraw.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(Featured))
+tushy.com,tushyraw.com##div[data-test-component="VideoList"]:has(H2:has-text(Top Videos))
+tushy.com,tushyraw.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(Featured))
+vixen.com,deeper.com##div[data-test-component="VideoList"]:has(H2:has-text(Top Videos))
+vixen.com,deeper.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(Featured))
 
 !-------------------------------------------------------
 
