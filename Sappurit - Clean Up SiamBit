@@ -1,0 +1,97 @@
+! Title: Sappurit - Clean Up SiamBit
+! Homepage: https://github.com/Sappurit/Sappurit-uBlock-Filters
+! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
+! Expires: 3 days
+! Version: 5
+! Last updated: 3 June 2020
+
+!-------------------------------------------------------
+!--- SiamBit -------------------------------------------
+!-------------------------------------------------------
+
+siambit.me##cloudflare-app:nth-of-type(1)
+
+! Header
+siambit.me##body > table:nth-of-type(1) > tbody > tr > .bottom
+
+! Tips
+siambit.me##.outer > p:has-text(Tip:)
+
+! สยามบิต ดอทคอม สนับสนุนให้ คนไทย อัพโหลดดาวน์โหลดไฟล์ แลกเปลี่ยนเพื่อความบันเทิง ไม่สนับสนุนการ ซื้อ-ขาย
+siambit.me##table[width="550"]:has(b:has-text(แลกเปลี่ยนเพื่อความบันเทิง ไม่สนับสนุนการ ซื้อ-ขาย))
+
+! Clean up user name icons and slogan
+siambit.me##img[src*="pic/usericon/"][title]
+siambit.me##td[width="260"][align="left"] > font[class="small"][color="gray"]
+
+! details.php Rows
+siambit.me##tr:has(> td[id="seethankslist"])
+siambit.me##tr:has(> td[id="saythank"])
+siambit.me##tr:has(> td[class="heading"][valign="top"][align="right"]:has-text(Owner))
+
+! details.php Ads
+siambit.me##td[width="88%"][align="left"] > a:has(img[title="คาสิโนออนไลน์"])
+siambit.me##td[width="88%"][align="left"] > a:has(img[title="เว็บสล็อตอันดับ1ระบบฝาก-ถอนเร็วที่สุด"])
+siambit.me##td[width="88%"][align="left"] > a[title="Bookmark File"]
+siambit.me##td[width="88%"][align="left"] > a[title="Promote this Torrent"]
+siambit.me##td[width="88%"][align="left"] > a:has-text(เดิมพันฟุตบอล)
+
+! NongZeza details.php
+siambit.me##td[valign="top"][align="left"] font[size="7"]:has-text(#Siambit Exclusive)
+siambit.me##td[valign="top"][align="left"] table[class="main"][border="1"][cellspacing="0"][cellpadding="10"][bgcolor="white"]:has-text(แจ้งหมายเหตุสำคัญ)
+siambit.me##td[valign="top"][align="left"] font[color="eb8bb1"]:has-text(เส้นทางด่วน! ขึ้นสู่ด้านบน)
+siambit.me##td[class="text"] font[size="3"]:has-text(ค้นหางานทั้งหมดที่ NongZEZA~ นำมาส่งมอบแบ่งปันให้)
+
+! NongZeza Pics
+||i.imgur.com/XFM3ryy.png$image
+||i.imgur.com/rM8Wkrd.gif$image
+||i.imgur.com/HylHYQr.gif$image
+||i.imgur.com/QzCOZdC.gif$image
+||i.imgur.com/LYkUWro.png$image
+||i.imgur.com/TQ3NL5N.gif$image
+||i.imgur.com/J76Pg7c.png$image
+||i.imgur.com/hnpNG8r.gif$image
+||i.imgur.com/ogZGQY7.png$image
+||i.imgur.com/vbU6tNi.gif$image
+
+! Useless Icons
+||www.siambit.me/pic/on.gif$image
+||www.siambit.me/pic/off.gif$image
+||www.siambit.me/pic/male.gif$image
+||www.siambit.me/pic/female.gif$image
+||www.siambit.me/pic/imdb_siambit.png$image
+||www.siambit.me/pic/fb_id.png$image
+||www.siambit.me/pic/new1.gif$image
+||www.siambit.me/pic/crown.gif$image
+||www.siambit.me/pic/Crown20000new.gif$image
+||www.siambit.me/pic/stickyt.gif$image
+||www.siambit.me/pic/pn_inbox.gif$image
+||www.siambit.me/pic/star.gif$image
+||www.siambit.me/pic/hot1.gif$image
+||www.siambit.me/pic/s-hot.gif$image
+||www.siambit.me/pic/downloadpic.gif$image
+||www.siambit.me/pic/onload.gif$image
+||www.siambit.me/pic/Pause.png$image
+||www.siambit.me/pic/default_avatar.gif$image
+||www.siambit.me/pic/smilies/clap2.gif$image
+||www.siambit.me/pic/smilies/emo-57.gif$image
+||www.siambit.me/pic/smilies/zeza-SirensJY2U.gif$image
+||www.siambit.me/pic/thank/th_thank.png$image
+||www.siambit.me/include/logo_siambit.gif$image
+
+!-------------------------------------------------------
+!--- Useful Info ---------------------------------------
+!-------------------------------------------------------
+
+!-- https://adblockplus.org/filter-cheatsheet
+!-- https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
+!-- ###advert matches the element with the unique id "advert".
+!-- ##.advert matches elements with the class "advert".
+!-- ##div[title*="adv"] will hide all div elements with title attribute containing the string "adv". 
+!-- ##div[title^="adv"] will hide all div elements with title attribute starting with "adv".
+!-- ##div[title$="ert"] will hide all div elements with title attribute ending with "ert". 
+!-- ##div[width="80%"][bgcolor="white"] multiple conditions.
+
+!-------------------------------------------------------
+!--- End -----------------------------------------------
+!-------------------------------------------------------
