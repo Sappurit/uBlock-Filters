@@ -16,6 +16,7 @@ Specific -> Good      example.com##body > div:has-text(Sponsored)
 
 ## CSS Selectors
 
+[https://www.w3.org/TR/selectors-3/#selectors](https://www.w3.org/TR/selectors-3/#selectors)
 [https://adblockplus.org/filter-cheatsheet](https://adblockplus.org/filter-cheatsheet)
 
 - `example.com###advert` matches the element with the unique id "advert"
@@ -23,7 +24,10 @@ Specific -> Good      example.com##body > div:has-text(Sponsored)
 - `example.com##div[title^="adv"]` matches all \<div\> elements with title attribute starting with "adv"
 - `example.com##div[title*="ver"]` matches all \<div\> elements with title attribute containing the string "ver"
 - `example.com##div[title$="ert"]` matches all \<div\> elements with title attribute ending with "ert"
+- `example.com##div[title~="advert"]` matches all \<div\> elements with title attribute "advert" in a list of whitespace-separated values
 - `example.com##div[width="80%"][size="7"]` matches multiple conditions
+
+## CSS Attribute Selectors
 
 
 ## Extended CSS selectors (uBlock Origin Specific)
