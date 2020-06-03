@@ -3,7 +3,7 @@
 - Network Filters (Simple blocking rules)
 - Cosmetic Filters (Hiding elements)
   - Generic = Apply to all domains
-  - Specific = Prefixed with the domain on which they are meant to apply
+  - Specific = Prefixed with the domain on which they are meant to apply  
     ```or```
   - Standard Cosmetic Filters = CSS Selector
   - Procedural Cosmetic Filters = Javascript code is used to find DOM elements
