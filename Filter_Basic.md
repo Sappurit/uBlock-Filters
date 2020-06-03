@@ -1,4 +1,4 @@
-### Filters
+## Filters
 
 - Network Filters
 - Cosmetic Filters
@@ -11,7 +11,7 @@ Specific -> valid    example.com##body > div:has-text(Sponsored)
 Generic  -> ignore   ##body > div:has-text(Sponsored)
 ```
 
-### Cosmetic Filter Operators
+## Cosmetic Filter Operators
 
 - subject:not()
 - subject:has()
