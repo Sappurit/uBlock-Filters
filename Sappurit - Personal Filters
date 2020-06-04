@@ -13,7 +13,7 @@ facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"]:h
 facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"]:has-text(/(สุเทพ|ธนาธร|ปิยบุตร|จ่านิว|จตุพร|ณัฐวุฒิ|ยิ่งลักษณ์)/))
 facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"]:has-text(/(ประยุทธ์|ประวิตร|บิ๊กตู่|บิ๊กป้อม|ลุงตู่|ลุงป้อม)/))
 facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"]:has-text(/(เสี่ยโป้|เสกโลโซ|เสก โลโซ|กานต์|BNK48)/i))
-facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"]:has-text(/(การบินไทย)/i))
+facebook.com##div[id^=hyperfeed_story_id_]:has(div[data-testid="post_message"]:has-text(/(การบินไทย|สิตางศุ์)/i))
 
 !-------------------------------------------------------
 !--- Youtube -------------------------------------------
