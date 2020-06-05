@@ -9,8 +9,8 @@
 ! Special thanks to everyone who contributed the hard work. 
 ! I have a little knowledge of CSS. I will try my best to maintain these lists.
 
-facebook.com##div[id^="hyperfeed_story_id_"]:has(a[role="button"]:has(> span:has-text(S):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9)):not(:has-text(w))))
-facebook.com##div[data-pagelet^="FeedUnit_"]:has(a[role="button"]:has(> span:has-text(S):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9)):not(:has-text(w))))
+facebook.com##div[id^="hyperfeed_story_id_"]:has(a[role="button"]:has(> span > span:has-text(S):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9)):not(:has-text(w))))
+facebook.com##div[data-pagelet^="FeedUnit_"]:has(a[role="button"]:has(> span > span:has-text(S):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9)):not(:has-text(w))))
 
 !-------------------------------------------------------
 !--- Old Layout ----------------------------------------
