@@ -28,7 +28,7 @@ facebook.com##div[id^=hyperfeed_story_id_]:has(a[role=button]:has(> span:has-tex
 !--- New Layout ----------------------------------------
 !-------------------------------------------------------
 
-facebook.com##div[data-pagelet^=FeedUnit_]:has([role=link]:has(> span:has-text(S)))
+!facebook.com##div[data-pagelet^=FeedUnit_]:has([role=link]:has(> span:has-text(S)))
 
 ! From 0ble
 !facebook.com##div[data-pagelet^=FeedUnit_]:has([role^=button]:has(> span > span:matches-css(position: relative):has-text(S)))
