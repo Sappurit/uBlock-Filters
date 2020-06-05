@@ -11,6 +11,7 @@
 
 ! Stories
 facebook.com###stories_pagelet_below_composer
+facebook.com##div[data-pagelet="Stories"]
 
 ! People you may know
 facebook.com##div[id^=hyperfeed_story_id_]:has(div:has-text(/^People you may know$/i))
