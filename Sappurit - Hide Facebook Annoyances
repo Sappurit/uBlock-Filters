@@ -13,20 +13,20 @@ facebook.com###stories_pagelet_below_composer
 facebook.com##div[data-pagelet="Stories"]
 
 ! People you may know
-facebook.com##div[id^="hyperfeed_story_id_"]:has(div[role="article"]:has-text(/^People you may know$/i))
-facebook.com##div[data-pagelet^="FeedUnit_"]:has(div[role="article"]:has-text(/^People You May Know$/i))
+facebook.com##div[id^="hyperfeed_story_id_"]:has(div:has-text(/^People you may know$/i))
+facebook.com##div[data-pagelet^="FeedUnit_"]:has(div:has-text(/^People You May Know$/i))
 
 ! Suggested for You
-facebook.com##div[id^="hyperfeed_story_id_"]:has(div[role="article"]:has-text(/^Suggested for You$/i))
+facebook.com##div[id^="hyperfeed_story_id_"]:has(div:has-text(/^Suggested for You$/i))
 
 ! Events you may like
-facebook.com##div[id^="hyperfeed_story_id_"]:has(div[role="article"]:has-text(/^Events you may like$/i))
+facebook.com##div[id^="hyperfeed_story_id_"]:has(div:has-text(/^Events you may like$/i))
 
 ! Friend Requests
-facebook.com##div[id^="hyperfeed_story_id_"]:has(div[role="article"]:has-text(/^Friend Requests$/i))
+facebook.com##div[id^="hyperfeed_story_id_"]:has(div:has-text(/^Friend Requests$/i))
 
 ! Suggested Groups
-facebook.com##div[data-pagelet^="FeedUnit_"]:has(div[role="article"]:has-text(/^Suggested Groups$/i))
+facebook.com##div[data-pagelet^="FeedUnit_"]:has(div:has-text(/^Suggested Groups$/i))
 
 ! XXX people want to join this group
 facebook.com###pagelet_consolidate_posts
