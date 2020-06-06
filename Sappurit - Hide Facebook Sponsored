@@ -2,40 +2,24 @@
 ! Homepage: https://github.com/Sappurit/Sappurit-uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 3 days
-! Version: 21
+! Version: 22
 ! Last updated: 5 June 2020
 !
 ! I collected all codes from https://www.reddit.com/r/uBlockOrigin/
 ! Special thanks to everyone who contributed the hard work. 
 ! I have a little knowledge of CSS. I will try my best to maintain these lists.
 
-facebook.com##div[id^="hyperfeed_story_id_"]:has(a[role="button"]:has(> span:matches-css(position: relative):has-text(S):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9))))
-
-facebook.com##div[data-pagelet^="FeedUnit_"]:has([role="button"]:has(> span > span:matches-css(position: relative):has-text(S)))
-
-
-!facebook.com##div[data-pagelet^="FeedUnit_"]:has(a[role="button"]:has(> span:matches-css(position: relative):has-text(S):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9))))
-!facebook.com##div[data-pagelet^="FeedUnit_"]:has(a[role="link"][href^="/ads/about/"]:has-text(S))
-
 !-------------------------------------------------------
 !--- Old Layout ----------------------------------------
 !-------------------------------------------------------
 
-! From 0ble
-!facebook.com##div[id^=hyperfeed_story_id_]:has(a[role=button]:has(> span:has-text(S):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9)):not(:has-text(w))))
-
-! From ansul1001
-!facebook.com##div[id^=hyperfeed_story_id_]:has(a[role=button]:has(> span:has-text(S)):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9)):not(:has-text(w)))
+facebook.com##div[id^="hyperfeed_story_id_"]:has(a[role="button"]:has(> span:matches-css(position: relative):has-text(S):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9))))
 
 !-------------------------------------------------------
 !--- New Layout ----------------------------------------
 !-------------------------------------------------------
 
-! From 0ble
-!facebook.com##div[data-pagelet^=FeedUnit_]:has([role^=button]:has(> span > span:matches-css(position: relative):has-text(S)))
-
-! From ansul1001
-!facebook.com##div[data-pagelet^=FeedUnit_]:has([role^=button]:has(> span:has-text(S)):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(span:has-text(9)):not(span:has-text(w)))
+facebook.com##div[data-pagelet^="FeedUnit_"]:has([role="button"]:has(> span:matches-css(position: relative):has-text(S)))
 
 !-------------------------------------------------------
 !--- End -----------------------------------------------
