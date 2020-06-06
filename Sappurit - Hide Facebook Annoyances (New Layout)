@@ -1,0 +1,26 @@
+! Title: Sappurit - Hide Facebook Annoyances (New Layout)
+! Homepage: https://github.com/Sappurit/Sappurit-uBlock-Filters
+! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
+! Expires: 2 days
+! Version: 20
+
+!-------------------------------------------------------
+!--- Center Annoyances by Sappurit ---------------------
+!-------------------------------------------------------
+
+! Stories
+facebook.com##div[data-pagelet="Stories"]
+
+! People you may know
+facebook.com##div[data-pagelet^="FeedUnit_"]:has(div:has-text(/^People You May Know$/i))
+
+! Suggested for You
+facebook.com##div[data-pagelet^="FeedUnit_"]:has(div:has-text(/^Suggested for You$/i))
+
+!-------------------------------------------------------
+!--- Right Column Annoyances by Sappurit ---------------
+!-------------------------------------------------------
+
+!-------------------------------------------------------
+!--- End -----------------------------------------------
+!-------------------------------------------------------
