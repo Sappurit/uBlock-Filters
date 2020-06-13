@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Sappurit/Sappurit-uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 14
+! Version: 15
 
 !-------------------------------------------------------
 !--- Facebook ------------------------------------------
@@ -29,9 +29,9 @@ youtube.com##.ytp-ce-element
 twitter.com##article[role="article"]:has(> div > div:first-child:has-text(Pinned Tweet))
 
 ! Who to follow
-twitter.com##div:has(> h2[role="heading"]:has-text(Who to follow))
-twitter.com##div:has(> div[role="button"][data-testid="UserCell"])
-twitter.com##div:has(> a[href^="/i/connect_people"]:has-text(Show more))
+twitter.com##div:has(> div > h2[role="heading"]:has-text(Who to follow))
+twitter.com##div:has(> div > div[role="button"][data-testid="UserCell"])
+twitter.com##div:has(> div > a[href^="/i/connect_people"]:has-text(Show more))
 
 ! You might like
 twitter.com##div:has(> aside[role="complementary"][aria-label="Who to follow"])
