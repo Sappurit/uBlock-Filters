@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Sappurit/Sappurit-uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 21
+! Version: 22
 
 !-------------------------------------------------------
 !--- Center Annoyances by Sappurit ---------------------
@@ -12,25 +12,25 @@
 facebook.com###stories_pagelet_below_composer
 
 ! People you may know
-facebook.com##div[id^="hyperfeed_story_id_"]:has(div:has-text(/^People you may know$/i))
+facebook.com##div[id^="hyperfeed_story_id"]:has(div:has-text(/^People you may know$/i))
 
 ! Suggested for You
-facebook.com##div[id^="hyperfeed_story_id_"]:has(div:has-text(/^Suggested for You$/i))
+facebook.com##div[id^="hyperfeed_story_id"]:has(div:has-text(/^Suggested for You$/i))
 
 ! Events you may like
-facebook.com##div[id^="hyperfeed_story_id_"]:has(div:has-text(/^Events you may like$/i))
+facebook.com##div[id^="hyperfeed_story_id"]:has(div:has-text(/^Events you may like$/i))
 
 ! Friend Requests
-facebook.com##div[id^="hyperfeed_story_id_"]:has(div:has-text(/^Friend Requests$/i))
+facebook.com##div[id^="hyperfeed_story_id"]:has(div:has-text(/^Friend Requests$/i))
 
 ! Suggested Groups
-facebook.com##div[data-pagelet^="FeedUnit_"]:has(div:has-text(/^Suggested Groups$/i))
+facebook.com##div[data-pagelet^="FeedUnit"]:has(div:has-text(/^Suggested Groups$/i))
 
 ! XXX people want to join this group
 facebook.com###pagelet_consolidate_posts
 
 ! Suggested units
-facebook.com##div[id^="mall_post_"]:has(div:has-text(/^Suggested units$/i))
+facebook.com##div[id^="mall_post"]:has(div:has-text(/^Suggested units$/i))
 
 !-------------------------------------------------------
 !--- Right Column Annoyances by Sappurit ---------------
