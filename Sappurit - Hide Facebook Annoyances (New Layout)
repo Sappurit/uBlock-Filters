@@ -12,10 +12,10 @@
 facebook.com##div[data-pagelet="Stories"]
 
 ! People you may know
-facebook.com##div[data-pagelet^="FeedUnit_"]:has(div:has-text(/^People You May Know$/i))
+facebook.com##div[data-pagelet^="FeedUnit"]:has(div:has-text(/^People You May Know$/i))
 
 ! Suggested for You
-facebook.com##div[data-pagelet^="FeedUnit_"]:has(div:has-text(/^Suggested for You$/i))
+facebook.com##div[data-pagelet^="FeedUnit"]:has(div:has-text(/^Suggested for You$/i))
 
 !-------------------------------------------------------
 !--- Right Column Annoyances by Sappurit ---------------
