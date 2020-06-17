@@ -2,11 +2,14 @@
 ! Homepage: https://github.com/Sappurit/Sappurit-uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 22
+! Version: 23
 
 !-------------------------------------------------------
 !--- Center Annoyances by Sappurit ---------------------
 !-------------------------------------------------------
+
+! Video chats Rooms
+facebook.com###video_chats
 
 ! Stories
 facebook.com###stories_pagelet_below_composer
