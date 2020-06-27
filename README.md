@@ -5,10 +5,15 @@ I have a little knowledge of CSS. I will try my best to maintain these lists.
 
 To add my filters into uBlock, just click the RAW button and copy those link to your uBlock Dashboard > Filter lists > Import  
 > https://github.com/Sappurit/Sappurit-uBlock-Filters/raw/master/Sappurit%20-%20Clean%20Up%20SiamBit
+
 > https://github.com/Sappurit/Sappurit-uBlock-Filters/raw/master/Sappurit%20-%20Hide%20Facebook%20Annoyances
+
 > https://github.com/Sappurit/Sappurit-uBlock-Filters/raw/master/Sappurit%20-%20Hide%20Facebook%20Annoyances%20(New%20Layout)  
+
 > https://github.com/Sappurit/Sappurit-uBlock-Filters/raw/master/Sappurit%20-%20Hide%20Facebook%20Sponsored
+
 > https://github.com/Sappurit/Sappurit-uBlock-Filters/raw/master/Sappurit%20-%20Hide%20Facebook%20Sponsored%20(New%20Layout)  
+
 > https://github.com/Sappurit/Sappurit-uBlock-Filters/raw/master/Sappurit%20-%20Personal%20Filters
 
 
