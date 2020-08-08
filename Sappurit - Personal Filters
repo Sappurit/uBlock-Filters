@@ -32,7 +32,7 @@ youtube.com##.ytp-ce-element
 !-------------------------------------------------------
 
 ! Pinned Tweet
-twitter.com##article[role="article"]:has(> div > div:first-child:has-text(Pinned Tweet))
+twitter.com/EAFIFAMOBILE##article[role="article"]:has(> div > div:first-child:has-text(Pinned Tweet))
 
 ! Who to follow
 twitter.com##div:has(> div > h2[role="heading"]:has-text(Who to follow))
