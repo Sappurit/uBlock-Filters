@@ -24,7 +24,7 @@ siambit.me##td[width="260"][align="left"] > font[class="small"][color="gray"]
 ! details.php Rows
 siambit.me##tr:has(> td[id="seethankslist"])
 siambit.me##tr:has(> td[id="saythank"])
-siambit.me##tr:has(> td[class="heading"][valign="top"][align="right"]:has-text(Owner))
+! siambit.me##tr:has(> td[class="heading"][valign="top"][align="right"]:has-text(Owner))
 
 ! details.php Ads
 siambit.me##td[width="88%"][align="left"] > a:has(img[title="คาสิโนออนไลน์"])
