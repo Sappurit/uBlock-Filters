@@ -15,7 +15,7 @@ facebook.com##div:has(> div[data-pagelet="Stories"])
 facebook.com##div:has(> div > div[data-pagelet="VideoChatHomeUnit"])
 
 ! People you may know
-! facebook.com##div[data-pagelet^="FeedUnit"]:has(div:has-text(/^People You May Know$/i))
+facebook.com##div[data-pagelet^="FeedUnit"]:has(div:has-text(/^People You May Know$/i))
 
 ! Suggested for You
 ! facebook.com##div[data-pagelet^="FeedUnit"]:has(div:has-text(/^Suggested for You$/i))
