@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Sappurit/Sappurit-uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 8
+! Version: 9
 
 !-------------------------------------------------------
 !--- SiamBit -------------------------------------------
@@ -76,6 +76,9 @@ siambit.me##td[class="text"] font[size="3"]:has-text(ค้นหางานท
 ||siambit.me/pic/smilies/zeza-SirensJY2U.gif$image
 ||siambit.me/pic/thank/th_thank.png$image
 ||siambit.me/include/logo_siambit.gif$image
+
+! Ads Casino Online
+||www.siambit.me/pic/ptgame24.jpg
 
 !-------------------------------------------------------
 !--- End -----------------------------------------------
