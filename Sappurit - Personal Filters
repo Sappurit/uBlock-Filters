@@ -15,10 +15,10 @@ facebook.com##div[id^="hyperfeed_story_id"]:has(div[class~="userContentWrapper"]
 facebook.com##div[id^="hyperfeed_story_id"]:has(div[class~="userContentWrapper"] > div:first-child:has-text(/(วันเฉลิม|เยาวชนปลดแอก)/))
 
 facebook.com##div[data-pagelet^="FeedUnit_"]:has(div[role="article"]:has-text(/(พรรคเพื่อไทย|พปชร|พลังประชารัฐ)/))
-facebook.com##div[data-pagelet^="FeedUnit_"]:has(div[role="article"]:has-text(/(ประยุทธ์|ประวิตร|บิ๊กตู่|บิ๊กป้อม|ลุงตู่|ลุงป้อม|ปารีณา)/))
-facebook.com##div[data-pagelet^="FeedUnit_"]:has(div[role="article"]:has-text(/(สุเทพ|ธนาธร|ปิยบุตร|จ่านิว|รังสิมันต์|จตุพร|ณัฐวุฒิ|ยิ่งลักษณ์)/))
+facebook.com##div[data-pagelet^="FeedUnit_"]:has(div[role="article"]:has-text(/(ประยุทธ์|ประวิตร|บิ๊กตู่|บิ๊กป้อม|ลุงตู่|ลุงป้อม|สุเทพ|ปารีณา)/))
+facebook.com##div[data-pagelet^="FeedUnit_"]:has(div[role="article"]:has-text(/(ธนาธร|ปิยบุตร|จตุพร|ณัฐวุฒิ|จ่านิว|รังสิมันต์)/))
 facebook.com##div[data-pagelet^="FeedUnit_"]:has(div[role="article"]:has-text(/(เสี่ยโป้|เสกโลโซ|เสก โลโซ|กานต์|สิตางศุ์|BNK48)/))
-facebook.com##div[data-pagelet^="FeedUnit_"]:has(div[role="article"]:has-text(/(วันเฉลิม|เยาวชนปลดแอก|แอมมี่|หมอลำแบงค์|เพนกวิน|มายด์|ไผ่ ดาวดิน)/))
+facebook.com##div[data-pagelet^="FeedUnit_"]:has(div[role="article"]:has-text(/(เยาวชนปลดแอก|แอมมี่|หมอลำแบง|เพนกวิน|มายด์|ไผ่ ดาวดิน)/))
 
 !-------------------------------------------------------
 !--- Youtube -------------------------------------------
