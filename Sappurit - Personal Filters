@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Sappurit/Sappurit-uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 19
+! Version: 20
 
 !-------------------------------------------------------
 !--- Facebook ------------------------------------------
@@ -18,7 +18,7 @@ facebook.com##div[data-pagelet^="FeedUnit_"]:has(div[role="article"]:has-text(/(
 facebook.com##div[data-pagelet^="FeedUnit_"]:has(div[role="article"]:has-text(/(ประยุทธ์|ประวิตร|บิ๊กตู่|บิ๊กป้อม|ลุงตู่|ลุงป้อม|ปารีณา)/))
 facebook.com##div[data-pagelet^="FeedUnit_"]:has(div[role="article"]:has-text(/(สุเทพ|ธนาธร|ปิยบุตร|จ่านิว|รังสิมันต์|จตุพร|ณัฐวุฒิ|ยิ่งลักษณ์)/))
 facebook.com##div[data-pagelet^="FeedUnit_"]:has(div[role="article"]:has-text(/(เสี่ยโป้|เสกโลโซ|เสก โลโซ|กานต์|สิตางศุ์|BNK48)/))
-facebook.com##div[data-pagelet^="FeedUnit_"]:has(div[role="article"]:has-text(/(วันเฉลิม|เยาวชนปลดแอก|แอมมี่|หมอลำแบงค์|เพนกวิน|มายด์)/))
+facebook.com##div[data-pagelet^="FeedUnit_"]:has(div[role="article"]:has-text(/(วันเฉลิม|เยาวชนปลดแอก|แอมมี่|หมอลำแบงค์|เพนกวิน|มายด์|ไผ่ ดาวดิน)/))
 
 !-------------------------------------------------------
 !--- Youtube -------------------------------------------
