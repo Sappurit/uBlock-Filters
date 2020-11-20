@@ -48,7 +48,7 @@ facebook.com##div:has(> footer[aria-label="Facebook"][role="contentinfo"])
 facebook.com##div:has(> div > div > a[href*="events/birthdays"])
 
 ! Page About
-facebook.com##div[class="[object Object]"]:has(h2 > span:has-text(About))
+!facebook.com##div[class="[object Object]"]:has(h2 > span:has-text(About))
 !facebook.com##div[class=""]:has(h2 > span:has-text(About))
 
 !-------------------------------------------------------
