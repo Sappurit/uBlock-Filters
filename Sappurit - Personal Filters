@@ -40,7 +40,6 @@ twitter.com##div:has(> aside[role="complementary"][aria-label="Who to follow"])
 twitter.com##div:has(> aside[role="complementary"][aria-label="Relevant people"])
 
 ! Topics to follow
-
 twitter.com##div:has(> div > a[role="link"][aria-labelledby*="topic-description"])
 twitter.com##div:has(> div > a[role="link"][href="/i/flow/topics_selector"])
 twitter.com##div:has(> div > div > h2[role="heading"]:has-text(Topics to follow))
