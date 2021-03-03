@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Sappurit/Sappurit-uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 24
+! Version: 25
 
 !-------------------------------------------------------
 !--- Facebook ------------------------------------------
@@ -84,11 +84,20 @@ utaseries.com###move-to-top
 !-------------------------------------------------------
 
 blacked.com,blackedraw.com##div[data-test-component="VideoList"]:has(H2:has-text(Top Videos))
-blacked.com,blackedraw.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(Featured))
 tushy.com,tushyraw.com##div[data-test-component="VideoList"]:has(H2:has-text(Top Videos))
-tushy.com,tushyraw.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(Featured))
 vixen.com,deeper.com##div[data-test-component="VideoList"]:has(H2:has-text(Top Videos))
+
+blacked.com,blackedraw.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(Featured))
+tushy.com,tushyraw.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(Featured))
 vixen.com,deeper.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(Featured))
+
+blacked.com,blackedraw.com##main > div:last-child[data-test-component="VideoList"]
+tushy.com,tushyraw.com##main > div:last-child[data-test-component="VideoList"]
+vixen.com,deeper.com###main > div:last-child[data-test-component="VideoList"]
+
+blacked.com,blackedraw.com##footer
+tushy.com,tushyraw.com##footer
+vixen.com,deeper.com###footer
 
 !-------------------------------------------------------
 
