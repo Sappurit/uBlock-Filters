@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Sappurit/Sappurit-uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 11
+! Version: 12
 
 !-------------------------------------------------------
 !--- SiamBit -------------------------------------------
@@ -13,6 +13,9 @@ siambit.me##body > table:nth-of-type(1) > tbody > tr > .bottom
 
 ! Tips
 siambit.me##.outer > p:has-text(Tip:)
+
+! ข่าวสาร Si@mBIT
+siambit.me##table[bgcolor="white"]:has-text(ข่าวสาร Si@mBIT)
 
 ! สยามบิต ดอทคอม สนับสนุนให้ คนไทย อัพโหลดดาวน์โหลดไฟล์ แลกเปลี่ยนเพื่อความบันเทิง ไม่สนับสนุนการ ซื้อ-ขาย
 siambit.me##table[width="550"]:has(b:has-text(แลกเปลี่ยนเพื่อความบันเทิง ไม่สนับสนุนการ ซื้อ-ขาย))
