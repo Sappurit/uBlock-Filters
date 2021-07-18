@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Sappurit/uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 40
+! Version: 41
 
 !-------------------------------------------------------
 !--- Center Annoyances by Sappurit ---------------------
@@ -47,9 +47,6 @@ facebook.com##div:has(> footer[aria-label="Facebook"][role="contentinfo"])
 !-------------------------------------------------------
 !--- Right Column Annoyances by Sappurit ---------------
 !-------------------------------------------------------
-
-! Sponsored
-facebook.com##div[data-pagelet="RightRail"] > div:nth-of-type(1) > span:nth-of-type(1):has(a[role="link"][target="_blank"])
 
 ! Birthdays
 facebook.com##div:has(> div > div > a[href*="events/birthdays"])
