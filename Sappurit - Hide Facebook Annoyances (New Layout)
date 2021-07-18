@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Sappurit/uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 42
+! Version: 43
 
 !-------------------------------------------------------
 !--- Center Annoyances by Sappurit ---------------------
@@ -12,8 +12,8 @@
 ! facebook.com##div:has(> div[data-pagelet="Stories"])
 
 ! Rooms
-! facebook.com##div:has(> div > div[data-pagelet="VideoChatHomeUnit"])
-! facebook.com##div:has(> div > div[data-pagelet="VideoChatHomeUnitNoDDD"])
+facebook.com##div:has(> div > div[data-pagelet="VideoChatHomeUnit"])
+facebook.com##div:has(> div > div[data-pagelet="VideoChatHomeUnitNoDDD"])
 
 ! People you may know
 facebook.com##div[data-pagelet^="FeedUnit"]:has(div:has-text(/People You May Know/i))
