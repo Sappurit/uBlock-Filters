@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Sappurit/uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 32
+! Version: 33
 !
 ! I collected all codes from https://www.reddit.com/r/uBlockOrigin/
 ! Special thanks to everyone who contributed the hard work. 
@@ -12,10 +12,11 @@
 !--- New Layout ----------------------------------------
 !-------------------------------------------------------
 
-facebook.com##div[class^=l9j0dhe7]:has(> div > div > div > div > div > h3 > span > span > span > span > span:matches-css(position: relative):has-text(S)):style(border: 8px dotted green !important)
-facebook.com##div[data-pagelet^="FeedUnit"]:has(div[role^=button]:has-text(Paid for by)):style(border: 8px dotted blue !important)
-facebook.com##[role="feed"] span[id] a[href="#"]>span>span, [role="feed"] span[id] a[href="#"]>span>b:not(:has-text(/(\s|\d|^$)/)):upward([role="feed"]>div):style(border: 8px dotted red !important)
+!facebook.com##div[class^=l9j0dhe7]:has(> div > div > div > div > div > h3 > span > span > span > span > span:matches-css(position: relative):has-text(S)):style(border: 8px dotted green !important)
+!facebook.com##div[data-pagelet^="FeedUnit"]:has(div[role^=button]:has-text(Paid for by)):style(border: 8px dotted blue !important)
+!facebook.com##[role="feed"] span[id] a[href="#"]>span>span, [role="feed"] span[id] a[href="#"]>span>b:not(:has-text(/(\s|\d|^$)/)):upward([role="feed"]>div):style(border: 8px dotted red !important)
 
+facebook.com##div[data-pagelet^="FeedUnit"]:has(a[aria-label=Sponsored]):style(border: 8px dotted red !important)
 
 ! Right Column Sponsored
 ! facebook.com##div[data-pagelet="RightRail"] > div > div:first-child:has-text(Sponsored)
