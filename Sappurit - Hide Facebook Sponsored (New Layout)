@@ -13,7 +13,7 @@
 !-------------------------------------------------------
 
 ! RraaLL
-facebook.com##[role="feed"] span[id] a[href="#"] > span > span,[role="feed"] span[id] a[href="#"] > span > b:not(:has-text(/(\s|\d|^$)/)):upward([role="feed"] > div):style(border: 6px dotted red !important)
+facebook.com##[role="feed"] span[id] a[href="#"] > span > span,[role="feed"] span[id] a[href="#"] > span > b:not(:has-text(/(\s|\d|^$)/)):upward([role="feed"] > div)
 
 ! Right Column Sponsored
 ! facebook.com##div[data-pagelet="RightRail"] > div > div:first-child:has-text(Sponsored)
