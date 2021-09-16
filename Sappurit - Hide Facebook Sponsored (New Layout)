@@ -15,8 +15,11 @@
 !facebook.com##div[data-pagelet^="FeedUnit"]:has(div[role="button"]:has(> span > span:matches-css(position: relative):has-text(S)))
 !facebook.com##div[data-pagelet^="FeedUnit"]:has(a[role="link"]:has(> span > span:matches-css(position: relative):has-text(S)))
 
-! FB Sponsored posts / 3 structures-matching filter / TEST version / Remove the `:style()` ending if no false positives found.
-facebook.com##[role="feed"] span[id] a[href="#"]>span>span, [role="feed"] span[id] a[href="#"]>span>b:not(:has-text(/(\s|\d|^$)/)):upward([role="feed"]>div):style(border: 8px dotted yellow !important)
+
+facebook.com##[role="feed"] span[id] a[href="#"]>span>span, [role="feed"] span[id] a[href="#"]>span>b:not(:has-text(/(\s|\d|^$)/)):upward([role="feed"]>div)
+facebook.com##div[class=l9j0dhe7]:has(h3 span:matches-css(position: relative):has-text(/^S/) > span:matches-css(position: relative):has-text(/^p$/)) 
+facebook.com##[role="feed"]>div:has(div[role^=button]:has-text(Paid for by))
+
 
 ! Right Column Sponsored
 ! facebook.com##div[data-pagelet="RightRail"] > div > div:first-child:has-text(Sponsored)
