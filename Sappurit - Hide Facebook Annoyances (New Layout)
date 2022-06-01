@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Sappurit/uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 45
+! Version: 46
 
 !-------------------------------------------------------
 !--- Center Annoyances by Sappurit ---------------------
@@ -33,9 +33,6 @@ facebook.com##div[data-pagelet="GroupFeed"] > div[role="Feed"] > div:has-text(/I
 
 ! Announcements
 facebook.com##div[data-pagelet="GroupFeed"] > div:has-text(/Announcements/i)
-
-! visit the COVID-19 information
-! facebook.com##div:has(> div > div > a[href*="facebook.com/coronavirus_info"])
 
 !-------------------------------------------------------
 !--- Left Column Annoyances by Sappurit ---------------
