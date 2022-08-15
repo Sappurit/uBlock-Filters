@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Sappurit/uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 29
+! Version: 30
 
 !-------------------------------------------------------
 !--- Facebook ------------------------------------------
@@ -23,8 +23,8 @@ youtube.com##.ytp-ce-element
 !--- Twitter -------------------------------------------
 !-------------------------------------------------------
 
-! Filter Words
-twitter.com##main section article[role=article]:has(span:has-text(Terms of Service))
+! Pinned Tweet
+twitter.com##div[data-testid="cellInnerDiv"]:has(article[data-testid="tweet"] div[data-testid="socialContext"] span:has-text(Pinned Tweet))
 
 ! Who to follow
 twitter.com##div:has(> div > h2[role="heading"]:has-text(Who to follow))
@@ -58,7 +58,7 @@ reddit.com##div:has(> div > div[class~="scrollerItem"]:has-text(/Squad Building/
 reddit.com##div:has(> div > div[class~="scrollerItem"]:has-text(/League Application/i))
 
 !-------------------------------------------------------
-!--- Thailand News Websites ----------------------------
+!--- Misc Websites -------------------------------------
 !-------------------------------------------------------
 
 mgronline.com###footer
@@ -71,13 +71,6 @@ nationtv.tv##.cd-overlay.adszone-overlay
 
 !-- Fix manager loading
 @@://ads.$domain=~ads.am
-
-!-------------------------------------------------------
-
-utaseries.com###header
-utaseries.com###site-footer
-utaseries.com###ads_fox_bottom
-utaseries.com###move-to-top
 
 !-------------------------------------------------------
 
