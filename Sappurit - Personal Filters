@@ -10,7 +10,7 @@
 
 facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(/(ธนาธร|ปิยบุตร|จตุพร|ณัฐวุฒิ|จ่านิว|รังสิมันต์)/)
 facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(/(เสี่ยโป้|เสกโลโซ|เสก โลโซ|กานต์|สิตางศุ์|BNK48)/)
-facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(/(เยาวชนปลดแอก|แอมมี่|เพนกวิน|มายด์|น้องเทนนิส|โค้ชเช)/)
+facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(/(เยาวชนปลดแอก|แอมมี่|เพนกวิน|มายด์)/)
 
 !-------------------------------------------------------
 !--- Youtube -------------------------------------------
