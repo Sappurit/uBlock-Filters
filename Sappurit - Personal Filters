@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Sappurit/uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 30
+! Version: 31
 
 !-------------------------------------------------------
 !--- Facebook ------------------------------------------
@@ -26,21 +26,25 @@ youtube.com##.ytp-ce-element
 ! Pinned Tweet
 twitter.com##div[data-testid="cellInnerDiv"]:has(article[data-testid="tweet"] div[data-testid="socialContext"] span:has-text(Pinned Tweet))
 
+! More Topics
+twitter.com##div[data-testid="cellInnerDiv"]:has(section[aria-labelledby*="accessible-list"][role="region"] > h1:has-text(Carousel))
+twitter.com##div[data-testid="cellInnerDiv"]:has(a[href="/i/topics/picker/home"] > div > span:has-text(More Topics))
+
 ! Who to follow
-twitter.com##div:has(> div > h2[role="heading"]:has-text(Who to follow))
-twitter.com##div:has(> div > div[role="button"][data-testid="UserCell"])
-twitter.com##div:has(> div > a[href^="/i/connect_people"]:has-text(Show more))
+! twitter.com##div:has(> div > h2[role="heading"]:has-text(Who to follow))
+! twitter.com##div:has(> div > div[role="button"][data-testid="UserCell"])
+! twitter.com##div:has(> div > a[href^="/i/connect_people"]:has-text(Show more))
 
 ! You might like
-twitter.com##div:has(> aside[role="complementary"][aria-label="Who to follow"])
+! twitter.com##div:has(> aside[role="complementary"][aria-label="Who to follow"])
 
 ! Relevant people
-twitter.com##div:has(> aside[role="complementary"][aria-label="Relevant people"])
+! twitter.com##div:has(> aside[role="complementary"][aria-label="Relevant people"])
 
 ! Topics to follow
-twitter.com##div:has(> div > a[role="link"][aria-labelledby*="topic-description"])
-twitter.com##div:has(> div > a[role="link"][href="/i/flow/topics_selector"])
-twitter.com##div:has(> div > div > h2[role="heading"]:has-text(Topics to follow))
+! twitter.com##div:has(> div > a[role="link"][aria-labelledby*="topic-description"])
+! twitter.com##div:has(> div > a[role="link"][href="/i/flow/topics_selector"])
+! twitter.com##div:has(> div > div > h2[role="heading"]:has-text(Topics to follow))
 
 ! Footer
 twitter.com##div:has(> nav[role="navigation"][aria-label="Footer"])
