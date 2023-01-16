@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Sappurit/uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 34
+! Version: 35
 
 !-------------------------------------------------------
 !--- Facebook ------------------------------------------
@@ -50,13 +50,7 @@ twitter.com##div:has(> nav[role="navigation"][aria-label="Footer"])
 !--- Reddit --------------------------------------------
 !-------------------------------------------------------
 
-! Old Design
-reddit.com##div[data-subreddit="FUTMobile"]:has(a[class~="title"]:has-text(/Squad Building/i))
-reddit.com##div[data-subreddit="FUTMobile"]:has(a[class~="title"]:has-text(/League Application/i))
 
-! New Design
-reddit.com##div:has(> div > div[class~="scrollerItem"]:has-text(/Squad Building/i))
-reddit.com##div:has(> div > div[class~="scrollerItem"]:has-text(/League Application/i))
 
 !-------------------------------------------------------
 !--- Misc Websites -------------------------------------
@@ -75,34 +69,46 @@ nationtv.tv##.cd-overlay.adszone-overlay
 
 !-------------------------------------------------------
 
+doofootball.com##.popup_player
+doofootball.com##.no-padding1.banner.container
+doofootball.com##.slidercontainer
+
+!-------------------------------------------------------
+
 javhdporn.net###flash.video-container
 
 !-------------------------------------------------------
 
-blacked.com,blackedraw.com##div[data-test-component="VideoList"]:has(H2:has-text(Top Videos))
-tushy.com,tushyraw.com##div[data-test-component="VideoList"]:has(H2:has-text(Top Videos))
-vixen.com,deeper.com##div[data-test-component="VideoList"]:has(H2:has-text(Top Videos))
+! Home
+blacked.com###__next > main > div[class^="ItsUpAd__AdWrapper"]
+blacked.com###__next > main > div[class^="PressLogos__PressLogosContainer"]
+blacked.com###__next > footer
+! Models
+blacked.com###__next > main > section > div[class^="FeaturedScene__Container"]
+! Videos
+blacked.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class^="DownloadArea__DownloadsContainer"]
+blacked.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class*="VideoList__VideoListContainer"]
 
-blacked.com,blackedraw.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(Featured))
-tushy.com,tushyraw.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(Featured))
-vixen.com,deeper.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(Featured))
+deeper.com###__next > main > div[class^="ItsUpAd__AdWrapper"]
+deeper.com###__next > main > div[class^="PressLogos__PressLogosContainer"]
+deeper.com###__next > footer
+deeper.com###__next > main > section > div[class^="FeaturedScene__Container"]
+deeper.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class^="DownloadArea__DownloadsContainer"]
+deeper.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class*="VideoList__VideoListContainer"]
 
-blacked.com,blackedraw.com##main > div:last-child[data-test-component="VideoList"]
-tushy.com,tushyraw.com##main > div:last-child[data-test-component="VideoList"]
-vixen.com,deeper.com###main > div:last-child[data-test-component="VideoList"]
+tushy.com###__next > main > div[class^="ItsUpAd__AdWrapper"]
+tushy.com###__next > main > div[class^="PressLogos__PressLogosContainer"]
+tushy.com###__next > footer
+tushy.com###__next > main > section > div[class^="FeaturedScene__Container"]
+tushy.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class^="DownloadArea__DownloadsContainer"]
+tushy.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class*="VideoList__VideoListContainer"]
 
-blacked.com,blackedraw.com##footer
-tushy.com,tushyraw.com##footer
-vixen.com,deeper.com###footer
-
-!-------------------------------------------------------
-
-thiendia.com##.samThreadPostContainerAfter.samAlignCenterAuto.samBannerUnit
-thiendia.com###content > .pageWidth > .pageContent > .my_responsive_ads
-thiendia.com###logoBlock
-thiendia.com##.samThreadPostMessageInside.samTextUnit
-thiendia.com##footer > .my_responsive_ads
-thiendia.com##.threadViewBelowMessages.samAlignCenterAuto.samBannerUnit
+vixen.com###__next > main > div[class^="ItsUpAd__AdWrapper"]
+vixen.com###__next > main > div[class^="PressLogos__PressLogosContainer"]
+vixen.com###__next > footer
+vixen.com###__next > main > section > div[class^="FeaturedScene__Container"]
+vixen.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class^="DownloadArea__DownloadsContainer"]
+vixen.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class*="VideoList__VideoListContainer"]
 
 !-------------------------------------------------------
 !--- Block Domains -------------------------------------
