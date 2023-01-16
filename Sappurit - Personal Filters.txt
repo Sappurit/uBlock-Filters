@@ -2,7 +2,14 @@
 ! Homepage: https://github.com/Sappurit/uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 35
+! Version: 36
+
+!-------------------------------------------------------
+!--- Youtube -------------------------------------------
+!-------------------------------------------------------
+
+! Suggested overlay at end of the clip.
+youtube.com##.ytp-ce-element
 
 !-------------------------------------------------------
 !--- Facebook ------------------------------------------
@@ -12,13 +19,6 @@ facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(/(ธนาธร|ปิ�
 facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(/(เสี่ยโป้|เสกโลโซ|เสก โลโซ|กานต์|สิตางศุ์|BNK48)/)
 facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(/(เยาวชนปลดแอก|แอมมี่|เพนกวิน|มายด์)/)
 facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(/(BitKub)/i)
-
-!-------------------------------------------------------
-!--- Youtube -------------------------------------------
-!-------------------------------------------------------
-
-! Suggested overlay at end of the clip.
-youtube.com##.ytp-ce-element
 
 !-------------------------------------------------------
 !--- Twitter -------------------------------------------
@@ -47,10 +47,60 @@ twitter.com##div:has(> aside[role="complementary"][aria-label="Who to follow"])
 twitter.com##div:has(> nav[role="navigation"][aria-label="Footer"])
 
 !-------------------------------------------------------
-!--- Reddit --------------------------------------------
+!--- Vixen Media Group ---------------------------------
 !-------------------------------------------------------
 
+! Home
+blacked.com###__next > main > div[class^="ItsUpAd__AdWrapper"]
+blacked.com###__next > main > div[class^="PressLogos__PressLogosContainer"]
+blacked.com###__next > footer
+! Models
+blacked.com###__next > main > section > div[class^="FeaturedScene__Container"]
+! Videos
+blacked.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class^="DownloadArea__DownloadsContainer"]
+blacked.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class*="VideoList__VideoListContainer"]
 
+blackedraw.com###__next > main > div[class^="ItsUpAd__AdWrapper"]
+blackedraw.com###__next > main > div[class^="PressLogos__PressLogosContainer"]
+blackedraw.com###__next > footer
+blackedraw.com###__next > main > section > div[class^="FeaturedScene__Container"]
+blackedraw.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class^="DownloadArea__DownloadsContainer"]
+blackedraw.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class*="VideoList__VideoListContainer"]
+
+deeper.com###__next > main > div[class^="ItsUpAd__AdWrapper"]
+deeper.com###__next > main > div[class^="PressLogos__PressLogosContainer"]
+deeper.com###__next > footer
+deeper.com###__next > main > section > div[class^="FeaturedScene__Container"]
+deeper.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class^="DownloadArea__DownloadsContainer"]
+deeper.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class*="VideoList__VideoListContainer"]
+
+slayed.com###__next > main > div[class^="ItsUpAd__AdWrapper"]
+slayed.com###__next > main > div[class^="PressLogos__PressLogosContainer"]
+slayed.com###__next > footer
+slayed.com###__next > main > section > div[class^="FeaturedScene__Container"]
+slayed.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class^="DownloadArea__DownloadsContainer"]
+slayed.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class*="VideoList__VideoListContainer"]
+
+tushy.com###__next > main > div[class^="ItsUpAd__AdWrapper"]
+tushy.com###__next > main > div[class^="PressLogos__PressLogosContainer"]
+tushy.com###__next > footer
+tushy.com###__next > main > section > div[class^="FeaturedScene__Container"]
+tushy.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class^="DownloadArea__DownloadsContainer"]
+tushy.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class*="VideoList__VideoListContainer"]
+
+tushyraw.com###__next > main > div[class^="ItsUpAd__AdWrapper"]
+tushyraw.com###__next > main > div[class^="PressLogos__PressLogosContainer"]
+tushyraw.com###__next > footer
+tushyraw.com###__next > main > section > div[class^="FeaturedScene__Container"]
+tushyraw.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class^="DownloadArea__DownloadsContainer"]
+tushyraw.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class*="VideoList__VideoListContainer"]
+
+vixen.com###__next > main > div[class^="ItsUpAd__AdWrapper"]
+vixen.com###__next > main > div[class^="PressLogos__PressLogosContainer"]
+vixen.com###__next > footer
+vixen.com###__next > main > section > div[class^="FeaturedScene__Container"]
+vixen.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class^="DownloadArea__DownloadsContainer"]
+vixen.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class*="VideoList__VideoListContainer"]
 
 !-------------------------------------------------------
 !--- Misc Websites -------------------------------------
@@ -76,39 +126,6 @@ doofootball.com##.slidercontainer
 !-------------------------------------------------------
 
 javhdporn.net###flash.video-container
-
-!-------------------------------------------------------
-
-! Home
-blacked.com###__next > main > div[class^="ItsUpAd__AdWrapper"]
-blacked.com###__next > main > div[class^="PressLogos__PressLogosContainer"]
-blacked.com###__next > footer
-! Models
-blacked.com###__next > main > section > div[class^="FeaturedScene__Container"]
-! Videos
-blacked.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class^="DownloadArea__DownloadsContainer"]
-blacked.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class*="VideoList__VideoListContainer"]
-
-deeper.com###__next > main > div[class^="ItsUpAd__AdWrapper"]
-deeper.com###__next > main > div[class^="PressLogos__PressLogosContainer"]
-deeper.com###__next > footer
-deeper.com###__next > main > section > div[class^="FeaturedScene__Container"]
-deeper.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class^="DownloadArea__DownloadsContainer"]
-deeper.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class*="VideoList__VideoListContainer"]
-
-tushy.com###__next > main > div[class^="ItsUpAd__AdWrapper"]
-tushy.com###__next > main > div[class^="PressLogos__PressLogosContainer"]
-tushy.com###__next > footer
-tushy.com###__next > main > section > div[class^="FeaturedScene__Container"]
-tushy.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class^="DownloadArea__DownloadsContainer"]
-tushy.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class*="VideoList__VideoListContainer"]
-
-vixen.com###__next > main > div[class^="ItsUpAd__AdWrapper"]
-vixen.com###__next > main > div[class^="PressLogos__PressLogosContainer"]
-vixen.com###__next > footer
-vixen.com###__next > main > section > div[class^="FeaturedScene__Container"]
-vixen.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class^="DownloadArea__DownloadsContainer"]
-vixen.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class*="VideoList__VideoListContainer"]
 
 !-------------------------------------------------------
 !--- Block Domains -------------------------------------
