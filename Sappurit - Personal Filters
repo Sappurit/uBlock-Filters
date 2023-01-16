@@ -2,17 +2,16 @@
 ! Homepage: https://github.com/Sappurit/uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 27
+! Version: 35
 
 !-------------------------------------------------------
 !--- Facebook ------------------------------------------
 !-------------------------------------------------------
 
-facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(/(พรรคเพื่อไทย|พปชร|พลังประชารัฐ)/)
-facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(/(ประยุทธ์|ประวิตร|บิ๊กตู่|บิ๊กป้อม|ลุงตู่|ลุงป้อม|สุเทพ|ปารีณา)/)
 facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(/(ธนาธร|ปิยบุตร|จตุพร|ณัฐวุฒิ|จ่านิว|รังสิมันต์)/)
 facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(/(เสี่ยโป้|เสกโลโซ|เสก โลโซ|กานต์|สิตางศุ์|BNK48)/)
-facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(/(เยาวชนปลดแอก|แอมมี่|เพนกวิน|มายด์|น้องเทนนิส|โค้ชเช)/)
+facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(/(เยาวชนปลดแอก|แอมมี่|เพนกวิน|มายด์)/)
+facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(/(BitKub)/i)
 
 !-------------------------------------------------------
 !--- Youtube -------------------------------------------
@@ -25,42 +24,36 @@ youtube.com##.ytp-ce-element
 !--- Twitter -------------------------------------------
 !-------------------------------------------------------
 
-! Filter Words
-twitter.com##main section article[role=article]:has(span:has-text(Terms of Service))
+! Center -Pinned Tweet (15-AUG-2022)
+twitter.com##div[data-testid="cellInnerDiv"]:has(article[data-testid="tweet"]:has-text(Pinned Tweet))
 
-! Who to follow
-twitter.com##div:has(> div > h2[role="heading"]:has-text(Who to follow))
-twitter.com##div:has(> div > div[role="button"][data-testid="UserCell"])
-twitter.com##div:has(> div > a[href^="/i/connect_people"]:has-text(Show more))
+! Center - Who to follow (15-AUG-2022)
+twitter.com##div[data-testid="cellInnerDiv"]:has(h2[role="heading"]:has-text(Who to follow))
+twitter.com##div[data-testid="cellInnerDiv"]:has(div[role="button"][data-testid="UserCell"]:has-text(Click to Follow))
+twitter.com##div[data-testid="cellInnerDiv"]:has(a[href*="connect_people"]:has-text(Show more))
 
-! You might like
+! Center - Topics to follow (15-AUG-2022)
+twitter.com##div[data-testid="cellInnerDiv"]:has(h2[role="heading"]:has-text(Topics to follow))
+twitter.com##div[data-testid="cellInnerDiv"]:has(section[role="region"][aria-labelledby*="accessible-list"]:has-text(Carousel))
+twitter.com##div[data-testid="cellInnerDiv"]:has(a[href*="topics/picker"]:has-text(More Topics))
+
+! Right - Who to follow or You might like (15-AUG-2022)
 twitter.com##div:has(> aside[role="complementary"][aria-label="Who to follow"])
 
-! Relevant people
-twitter.com##div:has(> aside[role="complementary"][aria-label="Relevant people"])
+! Right - Relevant people (15-AUG-2022)
+! twitter.com##div:has(> aside[role="complementary"][aria-label="Relevant people"])
 
-! Topics to follow
-twitter.com##div:has(> div > a[role="link"][aria-labelledby*="topic-description"])
-twitter.com##div:has(> div > a[role="link"][href="/i/flow/topics_selector"])
-twitter.com##div:has(> div > div > h2[role="heading"]:has-text(Topics to follow))
-
-! Footer
+! Right - Footer (15-AUG-2022)
 twitter.com##div:has(> nav[role="navigation"][aria-label="Footer"])
 
 !-------------------------------------------------------
 !--- Reddit --------------------------------------------
 !-------------------------------------------------------
 
-! Old Design
-reddit.com##div[data-subreddit="FUTMobile"]:has(a[class~="title"]:has-text(/Squad Building/i))
-reddit.com##div[data-subreddit="FUTMobile"]:has(a[class~="title"]:has-text(/League Application/i))
 
-! New Design
-reddit.com##div:has(> div > div[class~="scrollerItem"]:has-text(/Squad Building/i))
-reddit.com##div:has(> div > div[class~="scrollerItem"]:has-text(/League Application/i))
 
 !-------------------------------------------------------
-!--- Thailand News Websites ----------------------------
+!--- Misc Websites -------------------------------------
 !-------------------------------------------------------
 
 mgronline.com###footer
@@ -76,37 +69,46 @@ nationtv.tv##.cd-overlay.adszone-overlay
 
 !-------------------------------------------------------
 
-utaseries.com###header
-utaseries.com###site-footer
-utaseries.com###ads_fox_bottom
-utaseries.com###move-to-top
+doofootball.com##.popup_player
+doofootball.com##.no-padding1.banner.container
+doofootball.com##.slidercontainer
 
 !-------------------------------------------------------
 
-blacked.com,blackedraw.com##div[data-test-component="VideoList"]:has(H2:has-text(Top Videos))
-tushy.com,tushyraw.com##div[data-test-component="VideoList"]:has(H2:has-text(Top Videos))
-vixen.com,deeper.com##div[data-test-component="VideoList"]:has(H2:has-text(Top Videos))
-
-blacked.com,blackedraw.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(Featured))
-tushy.com,tushyraw.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(Featured))
-vixen.com,deeper.com##div[class="sc-1gestuz-0 etqKEA pb6v16-0 lloion"]:has(H2:has-text(Featured))
-
-blacked.com,blackedraw.com##main > div:last-child[data-test-component="VideoList"]
-tushy.com,tushyraw.com##main > div:last-child[data-test-component="VideoList"]
-vixen.com,deeper.com###main > div:last-child[data-test-component="VideoList"]
-
-blacked.com,blackedraw.com##footer
-tushy.com,tushyraw.com##footer
-vixen.com,deeper.com###footer
+javhdporn.net###flash.video-container
 
 !-------------------------------------------------------
 
-thiendia.com##.samThreadPostContainerAfter.samAlignCenterAuto.samBannerUnit
-thiendia.com###content > .pageWidth > .pageContent > .my_responsive_ads
-thiendia.com###logoBlock
-thiendia.com##.samThreadPostMessageInside.samTextUnit
-thiendia.com##footer > .my_responsive_ads
-thiendia.com##.threadViewBelowMessages.samAlignCenterAuto.samBannerUnit
+! Home
+blacked.com###__next > main > div[class^="ItsUpAd__AdWrapper"]
+blacked.com###__next > main > div[class^="PressLogos__PressLogosContainer"]
+blacked.com###__next > footer
+! Models
+blacked.com###__next > main > section > div[class^="FeaturedScene__Container"]
+! Videos
+blacked.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class^="DownloadArea__DownloadsContainer"]
+blacked.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class*="VideoList__VideoListContainer"]
+
+deeper.com###__next > main > div[class^="ItsUpAd__AdWrapper"]
+deeper.com###__next > main > div[class^="PressLogos__PressLogosContainer"]
+deeper.com###__next > footer
+deeper.com###__next > main > section > div[class^="FeaturedScene__Container"]
+deeper.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class^="DownloadArea__DownloadsContainer"]
+deeper.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class*="VideoList__VideoListContainer"]
+
+tushy.com###__next > main > div[class^="ItsUpAd__AdWrapper"]
+tushy.com###__next > main > div[class^="PressLogos__PressLogosContainer"]
+tushy.com###__next > footer
+tushy.com###__next > main > section > div[class^="FeaturedScene__Container"]
+tushy.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class^="DownloadArea__DownloadsContainer"]
+tushy.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class*="VideoList__VideoListContainer"]
+
+vixen.com###__next > main > div[class^="ItsUpAd__AdWrapper"]
+vixen.com###__next > main > div[class^="PressLogos__PressLogosContainer"]
+vixen.com###__next > footer
+vixen.com###__next > main > section > div[class^="FeaturedScene__Container"]
+vixen.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class^="DownloadArea__DownloadsContainer"]
+vixen.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class*="VideoList__VideoListContainer"]
 
 !-------------------------------------------------------
 !--- Block Domains -------------------------------------
