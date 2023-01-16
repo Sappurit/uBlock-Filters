@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Sappurit/uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 36
+! Version: 37
 
 !-------------------------------------------------------
 !--- Youtube -------------------------------------------
@@ -50,13 +50,13 @@ twitter.com##div:has(> nav[role="navigation"][aria-label="Footer"])
 !--- Vixen Media Group ---------------------------------
 !-------------------------------------------------------
 
-! Home
+! Home Page
 blacked.com###__next > main > div[class^="ItsUpAd__AdWrapper"]
 blacked.com###__next > main > div[class^="PressLogos__PressLogosContainer"]
 blacked.com###__next > footer
-! Models
+! Models Page
 blacked.com###__next > main > section > div[class^="FeaturedScene__Container"]
-! Videos
+! Videos Page
 blacked.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class^="DownloadArea__DownloadsContainer"]
 blacked.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class*="VideoList__VideoListContainer"]
 
@@ -106,13 +106,17 @@ vixen.com###__next > main > div[class^="slug__StyledVideoPage"] > div[class*="Vi
 !--- Misc Websites -------------------------------------
 !-------------------------------------------------------
 
+nationtv.tv##.cd-overlay.adszone-overlay
+@@||doubleclick.net^$script,domain=thairath.co.th
+javhdporn.net###flash.video-container
+
+!-------------------------------------------------------
+
 mgronline.com###footer
 mgronline.com##.header-content
 mgronline.com##.h-header > div
 mgronline.com##.breaking-news
 mgronline.com##.pdd-t-xs-5.pordee-shops
-nationtv.tv##.cd-overlay.adszone-overlay
-@@||doubleclick.net^$script,domain=thairath.co.th
 
 !-- Fix manager loading
 @@://ads.$domain=~ads.am
@@ -125,7 +129,12 @@ doofootball.com##.slidercontainer
 
 !-------------------------------------------------------
 
-javhdporn.net###flash.video-container
+||avcollectors.com/board/Themes/Dark_Pearl/images/smflogo.gif$image
+avcollectors.com##div[id="bodyarea"] > div:nth-child(4) > table > tbody > tr:nth-child(2)
+avcollectors.com##div[id="bodyarea"] > div:nth-child(4) > table > tbody > tr:nth-child(3)
+avcollectors.com##div[id="bodyarea"] > div:nth-child(4) > table > tbody > tr:nth-child(4)
+avcollectors.com##div[id="bodyarea"] > div:nth-child(4) > table > tbody > tr:nth-child(5)
+avcollectors.com###footerarea
 
 !-------------------------------------------------------
 !--- Block Domains -------------------------------------
@@ -142,8 +151,6 @@ javhdporn.net###flash.video-container
 ||taboola.com
 ||imprezzer.com
 ||izooto.com
-||dyncdn.me/static/20/js/expla*.js$script,domain=rarbgenter.org
-||dyncdn.me/static/20/js/showads.js$script,domain=rarbgenter.org
 ||ufabet678.com
 
 !-------------------------------------------------------
