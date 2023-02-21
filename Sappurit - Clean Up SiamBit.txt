@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/Sappurit/uBlock-Filters
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 20
+! Version: 21
 
 !-------------------------------------------------------
 !--- SiamBit -------------------------------------------
@@ -38,6 +38,7 @@ siambit.me##tr:has(> td[id="saythanks"])
 ! siambit.me##tr:has(> td[class="heading"][valign="top"][align="right"]:has-text(Owner))
 
 ! details.php Ads
+siambit.me##td[width="88%"][align="left"] > a:has(img[alt="banner"])
 siambit.me##td[width="88%"][align="left"] > a:has(img[title="คาสิโนออนไลน์"])
 siambit.me##td[width="88%"][align="left"] > a:has(img[title="เว็บสล็อตอันดับ1ระบบฝาก-ถอนเร็วที่สุด"])
 siambit.me##td[width="88%"][align="left"] > a[title="Bookmark File"]
