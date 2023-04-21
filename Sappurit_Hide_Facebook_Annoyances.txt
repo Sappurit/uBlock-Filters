@@ -3,7 +3,7 @@
 ! Download: https://github.com/Sappurit/uBlock-Filters/raw/master/Sappurit_Hide_Facebook_Annoyances.txt
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 50
+! Version: 51
 
 !-------------------------------------------------------
 !--- Left Column Annoyances by Sappurit ---------------
@@ -23,6 +23,7 @@ facebook.com##span#ssrb_top_of_home_start + div:nth-of-type(1)
 facebook.com##span#ssrb_feed_start + div > div > div:has-text(/People You May Know/i)
 facebook.com##span#ssrb_feed_start + div > div > div:has-text(/Reels and short videos/i)
 facebook.com##span#ssrb_feed_start + div > div > div:has-text(/Suggested for you/i)
+facebook.com##span#ssrb_feed_start + div > div > div:has-text(/This is how your ad will look/i)
 
 !-------------------------------------------------------
 !--- Right Column Annoyances by Sappurit ---------------
