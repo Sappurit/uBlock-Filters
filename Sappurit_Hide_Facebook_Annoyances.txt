@@ -3,37 +3,7 @@
 ! Download: https://github.com/Sappurit/uBlock-Filters/raw/master/Sappurit_Hide_Facebook_Annoyances.txt
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 48
-
-!-------------------------------------------------------
-!--- Center Annoyances by Sappurit ---------------------
-!-------------------------------------------------------
-
-! Stories
-! facebook.com##div:has(> div[data-pagelet="Stories"])
-
-! Rooms
-! facebook.com##div:has(> div > div[data-pagelet="VideoChatHomeUnit"])
-! facebook.com##div:has(> div > div[data-pagelet="VideoChatHomeUnitNoDDD"])
-
-! People you may know
-facebook.com##div[data-pagelet^="FeedUnit"]:has(div:has-text(/People You May Know/i))
-
-! Friend Requests
-facebook.com##div[data-pagelet^="FeedUnit"]:has(div:has-text(/Friend Requests/i))
-
-! Suggested for You
-facebook.com##div[data-pagelet^="FeedUnit"]:has(div:has-text(/Suggested for You/i))
-
-! Suggested Groups
-! facebook.com##div[data-pagelet^="FeedUnit"]:has(div:has-text(/Suggested Groups/i))
-
-! Invite friends to this group
-facebook.com##div[data-pagelet^="FeedUnit"]:has(div:has-text(/Invite friends to this group/i))
-facebook.com##div[data-pagelet="GroupFeed"] > div[role="Feed"] > div:has-text(/Invite friends to this group/i)
-
-! Announcements
-facebook.com##div[data-pagelet="GroupFeed"] > div:has-text(/Announcements/i)
+! Version: 50
 
 !-------------------------------------------------------
 !--- Left Column Annoyances by Sappurit ---------------
@@ -43,16 +13,28 @@ facebook.com##div[data-pagelet="GroupFeed"] > div:has-text(/Announcements/i)
 facebook.com##div:has(> footer[aria-label="Facebook"][role="contentinfo"])
 
 !-------------------------------------------------------
+!--- Center Column Annoyances by Sappurit ---------------------
+!-------------------------------------------------------
+
+! Top Box
+facebook.com##span#ssrb_top_of_home_start + div:nth-of-type(1)
+
+! Feed Box
+facebook.com##span#ssrb_feed_start + div > div > div:has-text(/People You May Know/i)
+facebook.com##span#ssrb_feed_start + div > div > div:has-text(/Reels and short videos/i)
+facebook.com##span#ssrb_feed_start + div > div > div:has-text(/Suggested for you/i)
+
+!-------------------------------------------------------
 !--- Right Column Annoyances by Sappurit ---------------
 !-------------------------------------------------------
 
 ! Birthdays
-facebook.com##div:has(> div > div > a[href*="events/birthdays"])
+facebook.com##span#ssrb_rhc_start + div > div > div:has-text(Birthdays)
 
 ! Page About
-!facebook.com##div[class="[object Object]"]:has(h2 > span:has-text(About))
-!facebook.com##div[class=""]:has(h2 > span:has-text(About))
+facebook.com##div[style="height: 0px;"] + div > div:nth-of-type(1):has(h2 > span:has-text(About))
 
 !-------------------------------------------------------
 !--- End -----------------------------------------------
 !-------------------------------------------------------
+
