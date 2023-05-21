@@ -3,7 +3,7 @@
 ! Download: https://github.com/Sappurit/uBlock-Filters/raw/master/Sappurit_Hide_Facebook_Annoyances.txt
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 52
+! Version: 54
 
 !-------------------------------------------------------
 !--- Left Column Annoyances by Sappurit ---------------
@@ -17,21 +17,19 @@ facebook.com##div:has(> footer[aria-label="Facebook"][role="contentinfo"])
 !-------------------------------------------------------
 
 ! Top Box
-facebook.com##span#ssrb_top_of_home_start + div:nth-of-type(1)
+facebook.com##div[role="main"] div[aria-hidden="true"][data-visualcompletion="ignore"] + div:has-text(Stories)
 
 ! Feed Box
-facebook.com##span#ssrb_feed_start + div > div > div:has-text(/People You May Know/i)
-facebook.com##span#ssrb_feed_start + div > div > div:has-text(/Reels and short videos/i)
-facebook.com##span#ssrb_feed_start + div > div > div:has-text(/Suggested for you/i)
-facebook.com##span#ssrb_feed_start + div > div > div:has-text(/Friend Requests/i)
-facebook.com##span#ssrb_feed_start + div > div > div:has-text(/This is how your ad will look/i)
+facebook.com##h3:has-text(News Feed posts) + div > div:has-text(/People You May Know/i)
+facebook.com##h3:has-text(News Feed posts) + div > div:has-text(/Friend Requests/i)
+facebook.com##h3:has-text(News Feed posts) + div > div:has-text(/Suggested for you/i)
 
 !-------------------------------------------------------
 !--- Right Column Annoyances by Sappurit ---------------
 !-------------------------------------------------------
 
 ! Birthdays
-facebook.com##span#ssrb_rhc_start + div > div > div:has-text(Birthdays)
+facebook.com##div[role="complementary"] span:nth-of-type(1) ~ div:nth-of-type(2):has-text(Birthdays)
 
 ! Page About
 facebook.com##div[style="height: 0px;"] + div > div:nth-of-type(1):has(h2 > span:has-text(About))
