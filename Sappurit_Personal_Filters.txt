@@ -3,7 +3,7 @@
 ! Download: https://github.com/Sappurit/uBlock-Filters/raw/master/Sappurit_Personal_Filters.txt
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 41
+! Version: 43
 
 !-------------------------------------------------------
 !--- Youtube -------------------------------------------
@@ -16,9 +16,9 @@ youtube.com##.ytp-ce-element
 !--- Facebook ------------------------------------------
 !-------------------------------------------------------
 
-facebook.com##h3:has-text(News Feed posts) + div > div:has-text(/(ธนาธร|ปิยบุตร|จตุพร|ณัฐวุฒิ|จ่านิว|รังสิมันต์|เยาวชนปลดแอก|มายด์|จุรินทร์)/)
-facebook.com##h3:has-text(News Feed posts) + div > div:has-text(/(พปชร|รทสช|พรรคก้าวไกล|รวมไทยสร้างชาติ|พลังประชารัฐ|เพื่อไทย|ประชาธิปัตย์|ปชป)/)
-facebook.com##h3:has-text(News Feed posts) + div > div:has-text(/(เสี่ยโป้|เสกโลโซ|เสก โลโซ|กานต์|BitKub)/)
+facebook.com##h3:has-text(News Feed posts) ~ div > div:has-text(/(ธนาธร|ปิยบุตร|จตุพร|ณัฐวุฒิ|จ่านิว|รังสิมันต์|เยาวชนปลดแอก|มายด์|จุรินทร์)/)
+facebook.com##h3:has-text(News Feed posts) ~ div > div:has-text(/(พปชร|รทสช|พรรคก้าวไกล|รวมไทยสร้างชาติ|พลังประชารัฐ|เพื่อไทย|ประชาธิปัตย์|ปชป)/)
+facebook.com##h3:has-text(News Feed posts) ~ div > div:has-text(/(เสี่ยโป้|เสกโลโซ|เสก โลโซ|กานต์|BitKub)/)
 
 !-------------------------------------------------------
 !--- Twitter -------------------------------------------
@@ -65,29 +65,7 @@ blacked.com,blackedraw.com,deeper.com,slayed.com,tushy.com,tushyraw.com,vixen.co
 !--- Misc Websites -------------------------------------
 !-------------------------------------------------------
 
-nationtv.tv##.cd-overlay.adszone-overlay
-@@||doubleclick.net^$script,domain=thairath.co.th
 javhdporn.net###flash.video-container
-
-!-------------------------------------------------------
-
-mgronline.com###footer
-mgronline.com##.header-content
-mgronline.com##.h-header > div
-mgronline.com##.breaking-news
-mgronline.com##.pdd-t-xs-5.pordee-shops
-
-!-- Fix manager loading
-@@://ads.$domain=~ads.am
-
-!-------------------------------------------------------
-
-||avcollectors.com/board/Themes/Dark_Pearl/images/smflogo.gif$image
-avcollectors.com##div[id="bodyarea"] > div:nth-child(4) > table > tbody > tr:nth-child(2)
-avcollectors.com##div[id="bodyarea"] > div:nth-child(4) > table > tbody > tr:nth-child(3)
-avcollectors.com##div[id="bodyarea"] > div:nth-child(4) > table > tbody > tr:nth-child(4)
-avcollectors.com##div[id="bodyarea"] > div:nth-child(4) > table > tbody > tr:nth-child(5)
-avcollectors.com###footerarea
 
 !-------------------------------------------------------
 !--- Block Domains -------------------------------------
