@@ -3,7 +3,7 @@
 ! Download: https://github.com/Sappurit/uBlock-Filters/raw/master/Sappurit_Personal_Filters.txt
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 45
+! Version: 46
 
 !-------------------------------------------------------
 !--- Youtube -------------------------------------------
@@ -25,10 +25,10 @@ facebook.com##h3:has-text(News Feed posts) ~ div > div:has-text(/(เสี่�
 !-------------------------------------------------------
 
 ! Center - Pinned Tweet (08-NOV-2023)
-twitter.com##div[data-testid="cellInnerDiv"]:has(article[data-testid="tweet"]:has(span:has-text(Pinned)))
+twitter.com##div[data-testid="cellInnerDiv"]:has(article[data-testid="tweet"]:has(span:has-text(/^Pinned$/)))
 
 ! Center - Ad Tweet (10-NOV-2023)
-twitter.com##div[data-testid="cellInnerDiv"]:has(article[data-testid="tweet"]:has(span:has-text(Ad)))
+twitter.com##div[data-testid="cellInnerDiv"]:has(article[data-testid="tweet"]:has(span:has-text(/^Ad$/)))
 
 ! Center - Who to follow (15-AUG-2022)
 twitter.com##div[data-testid="cellInnerDiv"]:has(h2[role="heading"]:has-text(Who to follow))
