@@ -40,6 +40,9 @@ twitter.com##div[data-testid="cellInnerDiv"]:has(h2[role="heading"]:has-text(Top
 twitter.com##div[data-testid="cellInnerDiv"]:has(section[role="region"][aria-labelledby*="accessible-list"]:has-text(Carousel))
 twitter.com##div[data-testid="cellInnerDiv"]:has(a[href*="topics/picker"]:has-text(More Topics))
 
+! Right - Subscribe to Premium (10-NOV-2023)
+twitter.com##div:has(> aside[role="complementary"][aria-label="Subscribe to Premium"])
+
 ! Right - Who to follow or You might like (15-AUG-2022)
 twitter.com##div:has(> aside[role="complementary"][aria-label="Who to follow"])
 
