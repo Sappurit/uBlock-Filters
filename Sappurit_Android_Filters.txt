@@ -1,0 +1,21 @@
+! Title: Sappurit - Android Filters
+! Homepage: https://github.com/Sappurit/uBlock-Filters
+! Download: https://github.com/Sappurit/uBlock-Filters/raw/master/Sappurit_Android_Filters.txt
+! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
+! Expires: 2 days
+! Version: 1
+
+!-------------------------------------------------------
+!--- Line ----------------------------------------------
+!-------------------------------------------------------
+
+linevoom.line.me##body:watch-attr(class):remove-class(hide_scroll)
+linevoom.line.me###header
+linevoom.line.me###footer
+linevoom.line.me###modalPortal
+
+
+!-------------------------------------------------------
+!--- End -----------------------------------------------
+!-------------------------------------------------------
+
