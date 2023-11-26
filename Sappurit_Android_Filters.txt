@@ -3,7 +3,7 @@
 ! Download: https://github.com/Sappurit/uBlock-Filters/raw/master/Sappurit_Android_Filters.txt
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 3
+! Version: 4
 
 !-------------------------------------------------------
 !--- Line ----------------------------------------------
@@ -16,6 +16,37 @@ linevoom.line.me##div[class^="profileHeader_profile_header"]
 linevoom.line.me##div[class^="webToAppBanner_banner"]
 linevoom.line.me###header
 linevoom.line.me###modalPortal
+
+!-------------------------------------------------------
+!--- Facebook ------------------------------------------
+!-------------------------------------------------------
+
+! <body id="app-body" class="html-renderer Chrome Android prevent-scrolling">
+
+! Top Header Login & Video
+! <div data-actual-height="95"  data-comp-id="30000" data-type="container" data-mcomponent="MContainer" class="m fixed-container top"
+
+! Remove padding-top:95px;
+! <div data-actual-height="-96" data-comp-id="30001" data-type="vscroller" data-mcomponent="MContainer" class="m" style="padding-top:95px;"
+
+!	Last div : Watch more videos you may like
+!	<div data-actual-height="467" data-type="container" data-mcomponent="MContainer" class="m bg-s17"
+!	Watch more videos you may like
+!	Log in to explore more videos and keep up with topics that you're interested in
+!	Log in
+
+! Popup Login to get full facebook experience
+! <div data-actual-height="536" data-comp-id="22222" data-type="container" data-mcomponent="MContainer" class="m fixed-container bottom" 
+
+! unknown
+! <div data-actual-height="0" data-type="container" data-mcomponent="MContainer" class="m fixed-container"
+! <div data-actual-height="0" data-type="container" data-mcomponent="MContainer" class="m fixed-container above-bottom"
+! <div data-actual-height="0" data-type="container" data-mcomponent="MContainer" class="m fixed-container"
+
+m.facebook.com##body:watch-attr(class):remove-class(prevent-scrolling)
+m.facebook.com###screen-root > div > div[data-mcomponent="MContainer"][data-type="container"]
+m.facebook.com###screen-root > div > div[data-mcomponent="MContainer"][data-type="vscroller"]:remove-attr(style)
+m.facebook.com###screen-root > div > div[data-mcomponent="MContainer"][data-type="vscroller"] > div[data-mcomponent="MContainer"][data-type="container"]:has-text(Log in)
 
 !-------------------------------------------------------
 !--- End -----------------------------------------------
