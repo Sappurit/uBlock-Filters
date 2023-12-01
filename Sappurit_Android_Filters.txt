@@ -3,7 +3,7 @@
 ! Download: https://github.com/Sappurit/uBlock-Filters/raw/master/Sappurit_Android_Filters.txt
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 4
+! Version: 5
 
 !-------------------------------------------------------
 !--- Line ----------------------------------------------
@@ -16,6 +16,7 @@ linevoom.line.me##div[class^="profileHeader_profile_header"]
 linevoom.line.me##div[class^="webToAppBanner_banner"]
 linevoom.line.me###header
 linevoom.line.me###modalPortal
+
 
 !-------------------------------------------------------
 !--- Facebook ------------------------------------------
@@ -44,9 +45,11 @@ linevoom.line.me###modalPortal
 ! <div data-actual-height="0" data-type="container" data-mcomponent="MContainer" class="m fixed-container"
 
 m.facebook.com##body:watch-attr(class):remove-class(prevent-scrolling)
-m.facebook.com###screen-root > div > div[data-mcomponent="MContainer"][data-type="container"]
-m.facebook.com###screen-root > div > div[data-mcomponent="MContainer"][data-type="vscroller"]:remove-attr(style)
-m.facebook.com###screen-root > div > div[data-mcomponent="MContainer"][data-type="vscroller"] > div[data-mcomponent="MContainer"][data-type="container"]:has-text(Log in)
+m.facebook.com###screen-root > div > div[data-comp-id="30000"][data-mcomponent="MContainer"][data-type="container"]
+m.facebook.com###screen-root > div > div[data-comp-id="30001"][data-mcomponent="MContainer"][data-type="vscroller"]:remove-attr(style)
+m.facebook.com###screen-root > div > div[data-comp-id="30001"][data-mcomponent="MContainer"][data-type="vscroller"] > div:has-text(Log in to explore more)
+m.facebook.com###screen-root > div > div[data-comp-id="22222"][data-mcomponent="MContainer"][data-type="container"]
+
 
 !-------------------------------------------------------
 !--- End -----------------------------------------------
