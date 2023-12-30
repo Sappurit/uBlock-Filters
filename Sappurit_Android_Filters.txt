@@ -3,7 +3,7 @@
 ! Download: https://github.com/Sappurit/uBlock-Filters/raw/master/Sappurit_Android_Filters.txt
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 6
+! Version: 7
 
 !-------------------------------------------------------
 !--- Line ----------------------------------------------
@@ -48,6 +48,28 @@ m.facebook.com###screen-root > div > div[data-comp-id="30000"][data-mcomponent="
 m.facebook.com###screen-root > div > div[data-comp-id="30001"][data-mcomponent="MContainer"][data-type="vscroller"]:remove-attr(style)
 m.facebook.com###screen-root > div > div[data-comp-id="30001"][data-mcomponent="MContainer"][data-type="vscroller"] > div:has-text(Log in to explore more)
 m.facebook.com###screen-root > div > div[data-comp-id="22222"][data-mcomponent="MContainer"][data-type="container"]
+
+!-------------------------------------------------------
+!--- hdfootball.net ------------------------------------
+!-------------------------------------------------------
+
+! Header
+hdfootball.net##div[data-elementor-type="header"]
+
+! ดูบอล Hdfootball
+hdfootball.net##div[data-id="c776c79"]
+
+! หากว่าได้เข้ามารับชมฟุตบอต ดูบอล
+hdfootball.net##div[data-id="c41ad23"]
+
+! Banner 1
+hdfootball.net##div[data-id="a79c3ce"]
+
+! ตาราง ดูบอลสด วันนี้
+hdfootball.net##h2[class="head-title"]
+
+! Banner in Player
+hdfootball.net###mstudio_vast_static
 
 !-------------------------------------------------------
 !--- End -----------------------------------------------
