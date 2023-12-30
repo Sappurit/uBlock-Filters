@@ -71,6 +71,12 @@ hdfootball.net##h2[class="head-title"]
 ! Banner in Player
 hdfootball.net###mstudio_vast_static
 
+! Useless Widgets
+hdfootball.net##div[data-elementor-type="wp-page"] > section:not(:first-of-type)
+
+! Footer
+hdfootball.net##div[data-elementor-type="footer"]
+
 !-------------------------------------------------------
 !--- End -----------------------------------------------
 !-------------------------------------------------------
