@@ -3,7 +3,7 @@
 ! Download: https://github.com/Sappurit/uBlock-Filters/raw/master/Sappurit_Personal_Filters.txt
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 49
+! Version: 50
 
 !-------------------------------------------------------
 !--- Youtube -------------------------------------------
@@ -16,9 +16,9 @@ youtube.com##.ytp-ce-element
 !--- Facebook ------------------------------------------
 !-------------------------------------------------------
 
-facebook.com##h3:has-text(News Feed posts) + div > div:has-text(/People You May Know/i)
-facebook.com##h3:has-text(News Feed posts) + div > div:has-text(/Friend Requests/i)
-facebook.com##h3:has-text(News Feed posts) + div > div:has-text(/Suggested for you/i)
+!facebook.com##h3:has-text(News Feed posts) + div > div:has-text(/People You May Know/i)
+!facebook.com##h3:has-text(News Feed posts) + div > div:has-text(/Friend Requests/i)
+!facebook.com##h3:has-text(News Feed posts) + div > div:has-text(/Suggested for you/i)
 
 facebook.com##h3:has-text(News Feed posts) + div > div:has-text(/(ธนาธร|ปิยบุตร|จตุพร|ณัฐวุฒิ|จ่านิว|รังสิมันต์|เยาวชนปลดแอก|มายด์|จุรินทร์)/)
 facebook.com##h3:has-text(News Feed posts) + div > div:has-text(/(พปชร|รทสช|พรรคก้าวไกล|รวมไทยสร้างชาติ|พลังประชารัฐ|เพื่อไทย|ประชาธิปัตย์|ปชป)/)
