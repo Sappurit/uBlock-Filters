@@ -3,54 +3,54 @@
 ! Download: https://github.com/Sappurit/uBlock-Filters/raw/master/Sappurit_Clean_Up_SiamBit.txt
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 22
+! Version: 23
 
 !-------------------------------------------------------
 !--- SiamBit -------------------------------------------
 !-------------------------------------------------------
 
 ! Header
-siambit.me##body > table:nth-of-type(1) > tbody > tr > .bottom
+bearbit.co##body > table:nth-of-type(1) > tbody > tr > .bottom
 
 ! Tips
-siambit.me##.outer > p:has-text(Tip:)
+bearbit.co##.outer > p:has-text(Tip:)
 
 ! ข่าวสาร Si@mBIT
-siambit.me##table[bgcolor="white"]:has-text(ข่าวสาร Si@mBIT)
+bearbit.co##table[bgcolor="white"]:has-text(ข่าวสาร Si@mBIT)
 
 ! สยามบิต ดอทคอม สนับสนุนให้ คนไทย อัพโหลดดาวน์โหลดไฟล์ แลกเปลี่ยนเพื่อความบันเทิง ไม่สนับสนุนการ ซื้อ-ขาย
-siambit.me##table[width="550"]:has(b:has-text(แลกเปลี่ยนเพื่อความบันเทิง ไม่สนับสนุนการ ซื้อ-ขาย))
+bearbit.co##table[width="550"]:has(b:has-text(แลกเปลี่ยนเพื่อความบันเทิง ไม่สนับสนุนการ ซื้อ-ขาย))
 
 ! Ads Casino Online
-siambit.me##a[href*="lnw.lol"]
-siambit.me##a[href*="kingkongxo.com"]
-siambit.me##a[href*="55xo.co"]
-siambit.me##a[href*="ptgame24.com"]
-siambit.me##a[href*="1slot.co"]
-siambit.me##a[href*="55amb.com"]
+bearbit.co##a[href*="lnw.lol"]
+bearbit.co##a[href*="kingkongxo.com"]
+bearbit.co##a[href*="55xo.co"]
+bearbit.co##a[href*="ptgame24.com"]
+bearbit.co##a[href*="1slot.co"]
+bearbit.co##a[href*="55amb.com"]
 
 ! Clean up user name icons and slogan
-siambit.me##img[src*="pic/usericon/"][title]
-siambit.me##td[width="260"][align="left"] > font[class="small"][color="gray"]
+bearbit.co##img[src*="pic/usericon/"][title]
+bearbit.co##td[width="260"][align="left"] > font[class="small"][color="gray"]
 
 ! details.php Rows
-siambit.me##tr:has(> td[id="seethankslist"])
-siambit.me##tr:has(> td[id="saythanks"])
+bearbit.co##tr:has(> td[id="seethankslist"])
+bearbit.co##tr:has(> td[id="saythanks"])
 ! siambit.me##tr:has(> td[class="heading"][valign="top"][align="right"]:has-text(Owner))
 
 ! details.php Ads
-siambit.me##td[width="88%"][align="left"] > a:has(img[alt="banner"])
-siambit.me##td[width="88%"][align="left"] > a:has(img[title="คาสิโนออนไลน์"])
-siambit.me##td[width="88%"][align="left"] > a:has(img[title="เว็บสล็อตอันดับ1ระบบฝาก-ถอนเร็วที่สุด"])
-siambit.me##td[width="88%"][align="left"] > a[title="Bookmark File"]
-siambit.me##td[width="88%"][align="left"] > a[title="Promote this Torrent"]
-siambit.me##td[width="88%"][align="left"] > a:has-text(เดิมพันฟุตบอล)
+bearbit.co##td[width="88%"][align="left"] > a:has(img[alt="banner"])
+bearbit.co##td[width="88%"][align="left"] > a:has(img[title="คาสิโนออนไลน์"])
+bearbit.co##td[width="88%"][align="left"] > a:has(img[title="เว็บสล็อตอันดับ1ระบบฝาก-ถอนเร็วที่สุด"])
+bearbit.co##td[width="88%"][align="left"] > a[title="Bookmark File"]
+bearbit.co##td[width="88%"][align="left"] > a[title="Promote this Torrent"]
+bearbit.co##td[width="88%"][align="left"] > a:has-text(เดิมพันฟุตบอล)
 
 ! details.php NongZeza
-siambit.me##td[valign="top"][align="left"] font[size="7"]:has-text(#Siambit Exclusive)
-siambit.me##td[valign="top"][align="left"] table[class="main"][border="1"][cellspacing="0"][cellpadding="10"][bgcolor="white"]:has-text(แจ้งหมายเหตุสำคัญ)
-siambit.me##td[valign="top"][align="left"] font[color="eb8bb1"]:has-text(เส้นทางด่วน! ขึ้นสู่ด้านบน)
-siambit.me##td[class="text"] font[size="3"]:has-text(ค้นหางานทั้งหมดที่ NongZEZA~ นำมาส่งมอบแบ่งปันให้)
+bearbit.co##td[valign="top"][align="left"] font[size="7"]:has-text(#Siambit Exclusive)
+bearbit.co##td[valign="top"][align="left"] table[class="main"][border="1"][cellspacing="0"][cellpadding="10"][bgcolor="white"]:has-text(แจ้งหมายเหตุสำคัญ)
+bearbit.co##td[valign="top"][align="left"] font[color="eb8bb1"]:has-text(เส้นทางด่วน! ขึ้นสู่ด้านบน)
+bearbit.co##td[class="text"] font[size="3"]:has-text(ค้นหางานทั้งหมดที่ NongZEZA~ นำมาส่งมอบแบ่งปันให้)
 
 ! NongZeza Pics
 ||i.imgur.com/XFM3ryy.png$image
