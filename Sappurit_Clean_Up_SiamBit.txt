@@ -3,7 +3,7 @@
 ! Download: https://github.com/Sappurit/uBlock-Filters/raw/master/Sappurit_Clean_Up_SiamBit.txt
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 23
+! Version: 24
 
 !-------------------------------------------------------
 !--- SiamBit -------------------------------------------
@@ -36,7 +36,7 @@ bearbit.co##td[width="260"][align="left"] > font[class="small"][color="gray"]
 ! details.php Rows
 bearbit.co##tr:has(> td[id="seethankslist"])
 bearbit.co##tr:has(> td[id="saythanks"])
-! siambit.me##tr:has(> td[class="heading"][valign="top"][align="right"]:has-text(Owner))
+! bearbit.co##tr:has(> td[class="heading"][valign="top"][align="right"]:has-text(Owner))
 
 ! details.php Ads
 bearbit.co##td[width="88%"][align="left"] > a:has(img[alt="banner"])
@@ -65,30 +65,30 @@ bearbit.co##td[class="text"] font[size="3"]:has-text(ค้นหางานท
 ||i.imgur.com/vbU6tNi.gif$image
 
 ! Useless Icons
-||siambit.me/pic/on.gif$image
-||siambit.me/pic/off.gif$image
-||siambit.me/pic/male.gif$image
-||siambit.me/pic/female.gif$image
-||siambit.me/pic/imdb_siambit.png$image
-||siambit.me/pic/fb_id.png$image
-||siambit.me/pic/new1.gif$image
-||siambit.me/pic/crown.gif$image
-||siambit.me/pic/crown3.gif$image
-||siambit.me/pic/Crown20000new.gif$image
-||siambit.me/pic/stickyt.gif$image
-||siambit.me/pic/pn_inbox.gif$image
-||siambit.me/pic/star.gif$image
-||siambit.me/pic/hot1.gif$image
-||siambit.me/pic/s-hot.gif$image
-||siambit.me/pic/downloadpic.gif$image
-||siambit.me/pic/onload.gif$image
-||siambit.me/pic/Pause.png$image
-||siambit.me/pic/default_avatar.gif$image
-||siambit.me/pic/smilies/clap2.gif$image
-||siambit.me/pic/smilies/emo-57.gif$image
-||siambit.me/pic/smilies/zeza-SirensJY2U.gif$image
-||siambit.me/pic/thank/th_thank.png$image
-||siambit.me/include/logo_siambit.gif$image
+||bearbit.co/pic/on.gif$image
+||bearbit.co/pic/off.gif$image
+||bearbit.co/pic/male.gif$image
+||bearbit.co/pic/female.gif$image
+||bearbit.co/pic/imdb_siambit.png$image
+||bearbit.co/pic/fb_id.png$image
+||bearbit.co/pic/new1.gif$image
+||bearbit.co/pic/crown.gif$image
+||bearbit.co/pic/crown3.gif$image
+||bearbit.co/pic/Crown20000new.gif$image
+||bearbit.co/pic/stickyt.gif$image
+||bearbit.co/pic/pn_inbox.gif$image
+||bearbit.co/pic/star.gif$image
+||bearbit.co/pic/hot1.gif$image
+||bearbit.co/pic/s-hot.gif$image
+||bearbit.co/pic/downloadpic.gif$image
+||bearbit.co/pic/onload.gif$image
+||bearbit.co/pic/Pause.png$image
+||bearbit.co/pic/default_avatar.gif$image
+||bearbit.co/pic/smilies/clap2.gif$image
+||bearbit.co/pic/smilies/emo-57.gif$image
+||bearbit.co/pic/smilies/zeza-SirensJY2U.gif$image
+||bearbit.co/pic/thank/th_thank.png$image
+||bearbit.co/include/logo_siambit.gif$image
 
 !-------------------------------------------------------
 !--- End -----------------------------------------------
