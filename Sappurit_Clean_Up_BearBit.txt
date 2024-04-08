@@ -1,0 +1,45 @@
+! Title: Sappurit - Clean Up BearBit
+! Homepage: https://github.com/Sappurit/uBlock-Filters
+! Download: https://github.com/Sappurit/uBlock-Filters/raw/master/Sappurit_Clean_Up_BearBit.txt
+! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
+! Expires: 2 days
+! Version: 26
+
+!-------------------------------------------------------
+!--- BearBit -------------------------------------------
+!-------------------------------------------------------
+
+! Tips
+bearbit.co##.outer > p:has-text(Tip:)
+
+! Clean up user name icons and slogan
+!||bearbit.co/pic/usericon/*$image
+bearbit.co##img[src*="pic/usericon/"][title]
+bearbit.co##td[width="260"][align="left"] > font[class="small"][color="gray"]
+
+! Useless Icons
+||bearbit.co/pic/pn_inbox.gif
+||bearbit.co/pic/stickyt.gif
+||bearbit.co/pic/s-hot.gif
+||bearbit.co/pic/hot1.gif
+||bearbit.co/pic/imdb_siambit.png
+||bearbit.co/pic/on.gif
+||bearbit.co/pic/off.gif
+||bearbit.co/pic/fb_id.png
+||bearbit.co/pic/star.gif
+||bearbit.co/pic/crown.gif
+||bearbit.co/pic/Crown20000new.gif
+||bearbit.co/pic/downloadpic.gif
+||bearbit.co/pic/online.gif
+||bearbit.co/pic/offline.gif
+||bearbit.co/pic/Pause.png
+||bearbit.co/pic/male.gif
+||bearbit.co/pic/female.gif
+||bearbit.co/pic/smilies/yehh.gif
+||bearbit.co/pic/smilies/thumbsup.gif
+||bearbit.co/pic/smilies/zeza-SirensJY2U.gif
+
+!-------------------------------------------------------
+!--- End -----------------------------------------------
+!-------------------------------------------------------
+
