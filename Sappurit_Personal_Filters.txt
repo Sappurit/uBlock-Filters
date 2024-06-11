@@ -3,14 +3,14 @@
 ! Download: https://github.com/Sappurit/uBlock-Filters/raw/master/Sappurit_Personal_Filters.txt
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 51
+! Version: 52
 
 !-------------------------------------------------------
 !--- Youtube -------------------------------------------
 !-------------------------------------------------------
 
 ! Suggested overlay at end of the clip.
-youtube.com##.ytp-ce-element
+! youtube.com##.ytp-ce-element
 
 !-------------------------------------------------------
 !--- Facebook ------------------------------------------
@@ -28,33 +28,34 @@ youtube.com##.ytp-ce-element
 !--- Twitter -------------------------------------------
 !-------------------------------------------------------
 
-! Center - Pinned Tweet (08-NOV-2023)
-twitter.com##div[data-testid="cellInnerDiv"]:has(article[data-testid="tweet"]:has(span:has-text(/^Pinned$/)))
+! Center - Pinned Tweet (11-JUN-2024)
+x.com,twitter.com##div[data-testid="cellInnerDiv"]:has(article[data-testid="tweet"] span:has-text(Pinned))
 
-! Center - Ad Tweet (10-NOV-2023)
-twitter.com##div[data-testid="cellInnerDiv"]:has(article[data-testid="tweet"]:has(span:has-text(/^Ad$/)))
+! Center - Ad Tweet (11-JUN-2024)
+x.com,twitter.com##div[data-testid="cellInnerDiv"]:has(article[data-testid="tweet"] span:has-text(Ad))
 
-! Center - Who to follow (15-AUG-2022)
-twitter.com##div[data-testid="cellInnerDiv"]:has(h2[role="heading"]:has-text(Who to follow))
-twitter.com##div[data-testid="cellInnerDiv"]:has(div[role="button"][data-testid="UserCell"]:has-text(Click to Follow))
-twitter.com##div[data-testid="cellInnerDiv"]:has(a[href*="connect_people"]:has-text(Show more))
+! Center - Who to follow (11-JUN-2024)
+x.com,twitter.com##div[data-testid="cellInnerDiv"]:has(h2[role="heading"] span:has-text(Who to follow))
+x.com,twitter.com##div[data-testid="cellInnerDiv"]:has(button[data-testid="UserCell"] span:has-text(Follow))
+x.com,twitter.com##div[data-testid="cellInnerDiv"]:has(a[href*="connect_people"] span:has-text(Show more))
 
-! Center - Topics to follow (15-AUG-2022)
-twitter.com##div[data-testid="cellInnerDiv"]:has(h2[role="heading"]:has-text(Topics to follow))
-twitter.com##div[data-testid="cellInnerDiv"]:has(section[role="region"][aria-labelledby*="accessible-list"]:has-text(Carousel))
-twitter.com##div[data-testid="cellInnerDiv"]:has(a[href*="topics/picker"]:has-text(More Topics))
+! Right - Subscribe to Premium (11-JUN-2024)
+x.com,twitter.com##div[data-testid="sidebarColumn"] div:has(> div > aside[role="complementary"][aria-label="Subscribe to Premium"])
 
-! Right - Subscribe to Premium (10-NOV-2023)
-twitter.com##div:has(> aside[role="complementary"][aria-label="Subscribe to Premium"])
+! Right - Who to follow or You might like (11-JUN-2024)
+x.com,twitter.com##div[data-testid="sidebarColumn"] div:has(> div > aside[role="complementary"][aria-label="Who to follow"])
 
-! Right - Who to follow or You might like (15-AUG-2022)
-twitter.com##div:has(> aside[role="complementary"][aria-label="Who to follow"])
+! Right - Footer (11-JUN-2024)
+x.com,twitter.com##div[data-testid="sidebarColumn"] div:has(> nav[role="navigation"][aria-label="Footer"])
 
-! Right - Relevant people (15-AUG-2022)
-! twitter.com##div:has(> aside[role="complementary"][aria-label="Relevant people"])
+!-------------------------------------------------------
+!--- Misc ----------------------------------------------
+!-------------------------------------------------------
 
-! Right - Footer (15-AUG-2022)
-twitter.com##div:has(> nav[role="navigation"][aria-label="Footer"])
+bangkokbiznews.com###ads-nlightbox
+yts.mx###dontfoid
+techtobo.com###samNotice
+javhdporn.net###flash.video-container
 
 !-------------------------------------------------------
 !--- Block Domains -------------------------------------
@@ -68,7 +69,11 @@ twitter.com##div:has(> nav[role="navigation"][aria-label="Footer"])
 ||tripadvisor.com
 ||taboola.com
 ||imprezzer.com
-||ufabet678.com
+
+! RenderZ
+||cleverwebserver.com
+
+! sukebei.nyaa.si
 ||magsrv.com
 
 !-------------------------------------------------------
