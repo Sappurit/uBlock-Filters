@@ -3,7 +3,7 @@
 ! Download: https://github.com/Sappurit/uBlock-Filters/raw/master/Sappurit_Personal_Filters.txt
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 53
+! Version: 54
 
 !-------------------------------------------------------
 !--- Youtube -------------------------------------------
@@ -52,10 +52,7 @@ x.com,twitter.com##div[data-testid="sidebarColumn"] div:has(> nav[role="navigati
 !--- Misc ----------------------------------------------
 !-------------------------------------------------------
 
-bangkokbiznews.com###ads-nlightbox
-yts.mx###dontfoid
-techtobo.com###samNotice
-javhdporn.net###flash.video-container
+
 
 !-------------------------------------------------------
 !--- Block Domains -------------------------------------
