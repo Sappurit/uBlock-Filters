@@ -1,0 +1,92 @@
+
+-------------------------------------------------------------------------------
+
+Net added Text	RegEx	(น้ำมัน|พลังงาน|กบน|ดีเซล|เบนซิน|โซฮอล์|ปาล์ม|B7|B10)	gim
+
+-------------------------------------------------------------------------------
+
+www.energynewscenter.com/category/ข่าว/
+
+//div[contains(@class,"td-scroll-up")]				scroll up button
+//div[@id="td-mobile-nav"]					hidden mobile navigator
+//div[@class="td-search-wrap-mob"]				hidden mobile search
+//div[contains(@class,"tdc-header-wrap")]			header
+//div[contains(@class,"td-category-header")]			category header
+//a[@class="td-post-category"]					category badge
+//div[contains(@class,"td-main-sidebar")]			sidebar
+//div[@class="page-nav td-pb-padding-side"]			bottom page navigator
+//div[contains(@class,"td-footer-instagram-container")]		footer instagram
+//div[contains(@class,"tdc-footer-wrap")]			footer
+
+-------------------------------------------------------------------------------
+
+https://www.matichon.co.th/economy
+
+//div[@id="ad_position_box"]					center popup ad
+//div[@class="adp_interactive_ad"]				bottom float ad
+//div[contains(@class,"td-scroll-up")]				scroll up button
+//div[@id="td-mobile-nav"]					hidden mobile navigator
+//div[@class="td-search-wrap-mob"]				hidden mobile search
+//div[contains(@class,"td-header-wrap")]			header
+//div[@class="td-crumb-container"]				breadcrumb
+//div[contains(@class,"ud-header-ads-wrap")]			header ad
+//h1[@class="entry-title td-page-title"]			category
+//div[@class="ud-sub-category"]					sub category
+//div[contains(@class,"td_block_ad_box")]			ad
+//div[contains(@class,"td-main-sidebar")]			sidebar
+//div[@class="page-nav td-pb-padding-side"]			bottom page navigator
+//div[contains(@class,"td-footer-bottom-full")]			footer
+//div[contains(@class,"td-sub-footer-container")]		sub footer
+//div[@id="tdw-css-writer"]					selfish copy paste
+//div[@id="pdpa-popup"]						pdpa cookie
+
+-------------------------------------------------------------------------------
+
+https://www.thansettakij.com/category/latest-news
+
+//div[div[div[contains(@class,"widget-follow")]]]		social box
+//header							header
+//div[h1[contains(text(),"Connecting Opportunity")]]		hidden text
+//div[contains(@class,"desktop")]				page menu
+//div[contains(@class,"mobile")]				page menu mobile
+//div[contains(@class,"sticky-breadcrumb")]			page breadcrumb
+//div[contains(@class,"heading")]				heading bar
+//div[@class="sticky"]						sidebar
+//footer							footer
+//div[@id="onetrust-consent-sdk"]				consent
+
+-------------------------------------------------------------------------------
+
+https://www.bangkokbiznews.com/category/latest-news
+
+//div[@class="default-header"]					header
+//div[contains(@class,"header-mobile")]				header mobile
+//div[div[@class="desktop"]]					desktop ad
+//ul[@class="breadcrumb"]					page breadcrumb
+//h1[@class="heading-title"]					heading bar
+//span[@class="badge"]						category badge
+//div[@class="widget-content"]					sidebar
+//div[button[contains(text(),"ดูเพิ่มเติม")]]				bottom page navigator
+//footer							footer
+//div[@id="onetrust-consent-sdk"]				consent
+
+-------------------------------------------------------------------------------
+
+//div[@class=""]
+//div[@class=""]
+//div[@class=""]
+//div[@class=""]
+//div[@class=""]
+
+//div[contains(@class,"")]
+//div[contains(@class,"")]
+//div[contains(@class,"")]
+//div[contains(@class,"")]
+//div[contains(@class,"")]
+//div[contains(@class,"")]
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+
