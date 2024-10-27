@@ -3,7 +3,7 @@
 ! Download: https://github.com/Sappurit/uBlock-Filters/raw/master/Sappurit_Mobile_Filters.txt
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 8
+! Version: 9
 
 !-------------------------------------------------------
 !--- Line ----------------------------------------------
@@ -50,26 +50,17 @@ m.facebook.com###screen-root > div > div[data-comp-id="30001"][data-mcomponent="
 m.facebook.com###screen-root > div > div[data-comp-id="22222"][data-mcomponent="MContainer"][data-type="container"]
 
 !-------------------------------------------------------
-!--- warpfootball.games --------------------------------
-!-------------------------------------------------------
-
-warpfootball.games##div[id="cm-header-1"]
-warpfootball.games##div[id="wp-custom-header"]
-warpfootball.games##div[id="cm-header-2"]
-warpfootball.games##div[id^="popmake-"]
-warpfootball.games##div[id^="pum-"]
-warpfootball.games##img[id="mainPlayer_vast_static"]
-warpfootball.games##div[class="jw-logo jw-logo-top-right jw-reset"]
-warpfootball.games##div[class="cm-posts clearfix"] > :nth-child(-n+6)
-||demo.cloud-streaming.com
-warpfootball.games##div[class="cm-entry-summary"]
-
-!-------------------------------------------------------
 !--- Misc ----------------------------------------------
 !-------------------------------------------------------
 
 time.is##div[id="recover"]
 time.is##div[id="toppromotion"]
+
+
+renderz.app##div[class*="venatus-ad-wrapper"]
+
+ดูบอลดูหนัง.com##div[class="jw-logo jw-logo-top-right jw-reset"]
+
 
 !-------------------------------------------------------
 !--- End -----------------------------------------------
