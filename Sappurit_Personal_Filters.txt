@@ -3,7 +3,7 @@
 ! Download: https://github.com/Sappurit/uBlock-Filters/raw/master/Sappurit_Personal_Filters.txt
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 56
+! Version: 57
 
 !-------------------------------------------------------
 !--- Youtube -------------------------------------------
@@ -32,7 +32,7 @@
 x.com,twitter.com##div[data-testid="cellInnerDiv"]:has(article[data-testid="tweet"] div:has-text(Pinned))
 
 ! Center - Ad Tweet (11-JUN-2024)
-x.com,twitter.com##div[data-testid="cellInnerDiv"]:has(article[data-testid="tweet"] span:has-text(Ad))
+x.com,twitter.com##div[data-testid="cellInnerDiv"]:has(article[data-testid="tweet"] span:has-text(/^Ad$/))
 
 ! Center - Who to follow (11-JUN-2024)
 x.com,twitter.com##div[data-testid="cellInnerDiv"]:has(h2[role="heading"] span:has-text(Who to follow))

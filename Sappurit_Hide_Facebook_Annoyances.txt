@@ -3,7 +3,7 @@
 ! Download: https://github.com/Sappurit/uBlock-Filters/raw/master/Sappurit_Hide_Facebook_Annoyances.txt
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 57
+! Version: 58
 
 !-------------------------------------------------------
 !--- Left Column Annoyances by Sappurit ---------------
@@ -17,7 +17,7 @@ facebook.com##div:has(> footer[aria-label="Facebook"][role="contentinfo"])
 !-------------------------------------------------------
 
 ! Top Box
-facebook.com##div[role="main"] div[aria-hidden="true"][data-visualcompletion="ignore"] ~ div:has-text(Stories)
+! facebook.com##div[role="main"] div[aria-hidden="true"][data-visualcompletion="ignore"] ~ div:has-text(Stories)
 
 ! Feed Box
 ! facebook.com##h3:has-text(News Feed posts) + div > div:has-text(/People You May Know/i)
@@ -36,7 +36,7 @@ facebook.com##div[role="main"] div[aria-hidden="true"][data-visualcompletion="ig
 facebook.com##div[role="complementary"] span:nth-of-type(1) ~ div:nth-of-type(2):has-text(Birthdays)
 
 ! Page About
-facebook.com##div[style="height: 0px;"] + div > div:nth-of-type(1):has(h2 > span:has-text(About))
+! facebook.com##div[style="height: 0px;"] + div > div:nth-of-type(1):has(h2 > span:has-text(About))
 
 !-------------------------------------------------------
 !--- End -----------------------------------------------
