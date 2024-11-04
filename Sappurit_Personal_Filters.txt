@@ -3,7 +3,7 @@
 ! Download: https://github.com/Sappurit/uBlock-Filters/raw/master/Sappurit_Personal_Filters.txt
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 60
+! Version: 61
 
 !-------------------------------------------------------
 !--- Youtube -------------------------------------------
@@ -18,12 +18,6 @@
 
 ! Left Column - Footer
   facebook.com##div:has(> footer[aria-label="Facebook"][role="contentinfo"])
-
-! Center Column - Create a post
-! facebook.com##div[class]:has(> div > div > div[aria-label="Create a post"]:has(h3:has-text(/^Create a post$/)))
-
-! Center Column - Stories
-! facebook.com##div[class]:has(> div > div > div[data-virtualized="false"]:has(h3:has-text(/^Stories$/)))
 
 ! Center Column - Feed Box
 ! facebook.com##h3:has-text(News Feed posts) ~ div > div:has-text(/People You May Know/)
