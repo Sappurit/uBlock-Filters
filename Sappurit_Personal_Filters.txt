@@ -3,7 +3,7 @@
 ! Download: https://github.com/Sappurit/uBlock-Filters/raw/master/Sappurit_Personal_Filters.txt
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Expires: 2 days
-! Version: 57
+! Version: 59
 
 !-------------------------------------------------------
 !--- Youtube -------------------------------------------
@@ -23,6 +23,26 @@
 !facebook.com##h3:has-text(News Feed posts) + div > div:has-text(/(ธนาธร|ปิยบุตร|จตุพร|ณัฐวุฒิ|จ่านิว|รังสิมันต์|เยาวชนปลดแอก|มายด์|จุรินทร์)/)
 !facebook.com##h3:has-text(News Feed posts) + div > div:has-text(/(พปชร|รทสช|พรรคก้าวไกล|รวมไทยสร้างชาติ|พลังประชารัฐ|เพื่อไทย|ประชาธิปัตย์|ปชป)/)
 !facebook.com##h3:has-text(News Feed posts) + div > div:has-text(/(เสี่ยโป้|เสกโลโซ|เสก โลโซ|กานต์|BitKub)/)
+
+! Left Column - Footer
+facebook.com##div:has(> footer[aria-label="Facebook"][role="contentinfo"])
+
+! Center Column - Top Box
+! facebook.com##div[role="main"] div[aria-hidden="true"][data-visualcompletion="ignore"] ~ div:has-text(Stories)
+
+! Center Column - Feed Box
+! facebook.com##h3:has-text(News Feed posts) + div > div:has-text(/People You May Know/i)
+! facebook.com##h3:has-text(News Feed posts) + div > div:has-text(/Friend Requests/i)
+! facebook.com##h3:has-text(News Feed posts) + div > div:has-text(/Suggested for you/i)
+! facebook.com##h3:has-text(News Feed posts) + div > div:has-text(/Reels and short videos/i)
+! facebook.com##h3:has-text(News Feed posts) + div > div:has-text(/This is how your ad will look/i)
+! facebook.com##h3:has-text(News Feed posts) + div > div:has-text(/Try an ad designed for your business/i)
+
+! Right Column - Birthdays
+facebook.com##div[role="complementary"] span:nth-of-type(1) ~ div:nth-of-type(2):has-text(Birthdays)
+
+! Right Column - Page About
+! facebook.com##div[style="height: 0px;"] + div > div:nth-of-type(1):has(h2 > span:has-text(About))
 
 !-------------------------------------------------------
 !--- Twitter -------------------------------------------

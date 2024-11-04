@@ -1,14 +1,10 @@
 ## Sappurit-uBlock-Filters
-I collected all codes from [https://www.reddit.com/r/uBlockOrigin/](https://www.reddit.com/r/uBlockOrigin/)                
-Special thanks to everyone who contributed the hard work.  
+I collected all codes from [https://www.reddit.com/r/uBlockOrigin/](https://www.reddit.com/r/uBlockOrigin/)
+Special thanks to everyone who contributed the hard work.
 I have a little knowledge of CSS. I will try my best to maintain these lists.
 
-To add my filters into uBlock, just click the RAW button and copy those link to your uBlock Dashboard > Filter lists > Import  
+To add my filters into uBlock, just click the RAW button and copy those link to your uBlock Dashboard > Filter lists > Import
 > https://github.com/Sappurit/uBlock-Filters/raw/master/Sappurit_Clean_Up_BearBit.txt
-
-> https://github.com/Sappurit/uBlock-Filters/raw/master/Sappurit_Hide_Facebook_Annoyances.txt
-
-> https://github.com/Sappurit/uBlock-Filters/raw/master/Sappurit_Hide_Facebook_Sponsored.txt
 
 > https://github.com/Sappurit/uBlock-Filters/raw/master/Sappurit_Mobile_Filters.txt
 
@@ -18,7 +14,7 @@ To add my filters into uBlock, just click the RAW button and copy those link to 
 ## Most 3rd party useful lists
 
 #### **EasyList**
-EasyList is the primary filter list that removes most adverts from international webpages, including unwanted frames, images and objects. It is the most popular list used by many ad blockers and forms the basis of over a dozen combination and supplementary filter lists.  
+EasyList is the primary filter list that removes most adverts from international webpages, including unwanted frames, images and objects. It is the most popular list used by many ad blockers and forms the basis of over a dozen combination and supplementary filter lists.
 > https://easylist.to/easylist/easylist.txt
 
 #### **EasyList Cookie List**
